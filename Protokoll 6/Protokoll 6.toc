@@ -1,0 +1,12 @@
+\babel@toc {german}{}
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
+\contentsline {section}{\numberline {2}Ziel des Versuchs}{2}{section.2}
+\contentsline {section}{\numberline {3}Aufbau}{2}{section.3}
+\contentsline {section}{\numberline {4}Durchf\IeC {\"u}hrung}{3}{section.4}
+\contentsline {section}{\numberline {5}Auswertung und Fehleranalyse}{3}{section.5}
+\contentsline {subsubsection}{\numberline {5.0.1}Berechnung}{3}{subsubsection.5.0.1}
+\contentsline {subsection}{\numberline {5.1}Berechnung der theoretischen Schwebungsdauer}{4}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Bestimmung der Kopplungsgrade}{5}{subsection.5.2}
+\contentsline {section}{\numberline {6}Diskussion der Ergebnisse}{5}{section.6}
+\contentsline {section}{\numberline {7}Literatur}{5}{section.7}
+\contentsline {section}{\numberline {8}Anhang}{5}{section.8}
