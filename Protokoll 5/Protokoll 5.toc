@@ -1,0 +1,15 @@
+\babel@toc {german}{}
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
+\contentsline {section}{\numberline {2}Ziel des Versuchs}{3}{section.2}
+\contentsline {section}{\numberline {3}Aufbau und Durchf\IeC {\"u}hrung}{3}{section.3}
+\contentsline {subsubsection}{\numberline {3.0.1}Physikalisches Pendel}{3}{subsubsection.3.0.1}
+\contentsline {subsubsection}{\numberline {3.0.2}Das Drehpendel}{4}{subsubsection.3.0.2}
+\contentsline {section}{\numberline {4}Auswertung und Fehleranalysis}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}Bestimmung der theoretischen Schwingungsdauer}{6}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Beispielrechnungen}{6}{subsubsection.4.1.1}
+\contentsline {subsection}{\numberline {4.2}Bestimmung der Schwingungsdauer eines Physikalischen Pendels}{7}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Beispielrechnungen}{7}{subsubsection.4.2.1}
+\contentsline {subsection}{\numberline {4.3}Bestimmung der Schwingungsdauer eines Drehpendels}{7}{subsection.4.3}
+\contentsline {section}{\numberline {5}Diskussion der Ergebnisse}{9}{section.5}
+\contentsline {section}{\numberline {6}Literatur}{10}{section.6}
+\contentsline {section}{\numberline {7}Anhang}{10}{section.7}
