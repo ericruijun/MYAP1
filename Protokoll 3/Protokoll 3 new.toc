@@ -1,5 +1,5 @@
 \babel@toc {german}{}
-\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
+\contentsline {section}{\numberline {1}Einleitung}{2}{section.1}
 \contentsline {section}{\numberline {2}Ziel des Versuchs}{2}{section.2}
 \contentsline {section}{\numberline {3}Aufbau}{2}{section.3}
 \contentsline {section}{\numberline {4}Versuchsdurchf\"urhrung}{3}{section.4}
@@ -9,6 +9,6 @@
 \contentsline {section}{\numberline {6}Diskussion der Ergebnisse}{8}{section.6}
 \contentsline {subsection}{\numberline {6.1}Systematische und statistische Fehler :}{8}{subsection.6.1}
 \contentsline {subsection}{\numberline {6.2}Diskussion \"uber die gefundene Werten :}{8}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}M"ogliche Methoden zur Verbesserung der Experiment: }{9}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.3}M"ogliche Methoden zur Verbesserung des Experiments: }{9}{subsection.6.3}
 \contentsline {section}{\numberline {7}Literatur}{9}{section.7}
 \contentsline {section}{\numberline {8}Anhang}{9}{section.8}
