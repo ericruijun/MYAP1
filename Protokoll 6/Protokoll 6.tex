@@ -140,17 +140,56 @@ Die berechnete $T_S$ sind:
 		$l$ & $T_S$ & $u_{T_S}$  \\
 		m & s & s   \\
 		\bottomrule
-		0,705 & 24,683 & 1 \\
-		0,556 & 33,4 & 0,8 \\
-		0,455 & 56 & 7 \\
-		0,855 & 17,8 & 0,4 \\
+		0,705 & 24,6 & 2,6 \\
+		0,556 & 33,4 & 1,6 \\
+		0,455 & 56 & 14 \\
+		0,855 & 17,86 & 0,74 \\
+		\bottomrule
+	\end{tabular*}
+	\caption{Die mit der Formel berechnete Schwebungsdauer für verschiedene Kopplungsgrade}
+	\label{tabelle}
+\end{table}
+Die Unsicherheiten der Werte lassen sich mit der gauß'schen Fehlerfortpflanzung berechnen. Mit:
+$$f(T_A,T_B) = 2\frac{T_A T_B}{T_B-T_A}$$ 
+sind
+$$\frac{\partial f}{\partial T_A} = 2\frac{T_B^2}{(T_A-T_B)^2}$$
+$$\frac{\partial f}{\partial T_B} = -2\frac{T_B^2}{(T_B-T_A)^2}$$
+
+Die Unsicherheiten von $T_S$ sind deshalb:
+$$u_{T_S} = \sqrt{(\frac{\partial f}{\partial T_A}u_{T_A})^2+(\frac{\partial f}{\partial T_B}u_{T_B})^2}$$
+
+\subsection{Bestimmung der Kopplungsgrade}
+Der Kopplungsgrad lässt sich mit der folgenden Formel berechnen:
+\begin{equation}
+K = \frac{T_B^2-T_A^2}{T_B^2+T_A^2}
+\end{equation}
+
+Die berechnete Werte dafür für jede Messreihe und deren Unsicherheiten sind:
+
+\begin{table}[h]
+	\centering
+	\begin{tabular*}{0.99\textwidth}{@{\extracolsep{\fill}}cccc}
+		\toprule
+		$l$ & $K$ & $u_{K}$  \\
+		m &  &    \\
+		\bottomrule
+		0,705 & 0,14 & 0,01 \\
+		0,556 & 0,105 & 0,005 \\
+		0,455 & 0,06 & 0,01 \\
+		0,855 & 0,187 & 0,007 \\
 		\bottomrule
 	\end{tabular*}
 	\caption{Die mit der Formel berechnete Schwebungsdauer für verschiedene Kopplungsgrade}
 	\label{tabelle}
 \end{table}
 
-\subsection{Bestimmung der Kopplungsgrade}
+Die Unsicherheiten lassen sich wiederum mit der gauß'schen Fehlerfortpflanzung berechnen mit:
+$$f(T_A,T_B) = \frac{T_B^2-T_A^2}{T_B^2+T_A^2}$$
+sind
+$$\frac{\partial f}{\partial T_A} = -\frac{4T_A T_B}{(T_A^2+T_B)^2}$$
+$$\frac{\partial f}{\partial T_B} = \frac{4T_A T_B}{(T_B^2+T_A)^2}$$
+Die Unsicherheiten von $K$ sind deshalb:
+$$u_{K} = \sqrt{(\frac{\partial f}{\partial T_A}u_{T_A})^2+(\frac{\partial f}{\partial T_B}u_{T_B})^2}$$
 
 
 \section{Diskussion der Ergebnisse}
