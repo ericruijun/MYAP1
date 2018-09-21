@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.21)  20 SEP 2018 15:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.21)  21 SEP 2018 12:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -901,32 +901,38 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 305.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 305.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 307.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 307.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 307.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 309.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 309.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 309.
+
+Overfull \hbox (53.43275pt too wide) in paragraph at lines 306--307
+\T1/lmr/m/n/10.95 ,,Enthalpy of Fu-si-on.'' Wi-ki-pe-dia. (htt-ps://en.wikipedi
+a.org/wiki/Enthalpy_of_fusion). 
+ []
+
 Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 309.
 Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 309.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 309.
- [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 309.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 309.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 312.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 312.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 312.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 312.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 312.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 312.
+[9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
  (./Protokoll 3 new.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 309.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 309.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
 Package rerunfilecheck Info: File `"Protokoll 3 new".out' has not changed.
-(rerunfilecheck)             Checksum: 1621AE34879FF44BA77297E5F0BB9513;924.
+(rerunfilecheck)             Checksum: B09D38F82553202B0B3C14C63C530395;912.
  ) 
 Here is how much of TeX's memory you used:
  16002 strings out of 492649
@@ -952,7 +958,7 @@ blic/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr
 /local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texli
 ve/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2018/te
 xmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on "Protokoll 3 new.pdf" (9 pages, 613579 bytes).
+Output written on "Protokoll 3 new.pdf" (9 pages, 613459 bytes).
 PDF statistics:
  201 PDF objects out of 1000 (max. 8388607)
  170 compressed objects within 2 object streams
