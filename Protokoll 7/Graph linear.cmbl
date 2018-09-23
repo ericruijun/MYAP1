@@ -4,8 +4,8 @@
   <charset>utf-8</charset>
   <ApplicationBuildDateTime>Feb 11 2010 00:36:36</ApplicationBuildDateTime>
   <Copyright>Copyright (c) 2010 Vernier Software &#38; Technology and its licensers</Copyright>
-  <FileName>Abb 1 Graph.cmbl</FileName>
-  <FileIDString>9/22/18 7:20 PMeric02px20171822666659244027426</FileIDString>
+  <FileName>Graph linear.cmbl</FileName>
+  <FileIDString>9/23/18 1:53 PMeric02px201710636955391366214009</FileIDString>
   <CreatorOS>1</CreatorOS>
   <CreatorApp>1</CreatorApp>
   <AbsoluteVersion>1</AbsoluteVersion>
@@ -19,9 +19,9 @@
   <GraphMatchUseQuadratic>1</GraphMatchUseQuadratic>
   <GraphMatchNumSections>0</GraphMatchNumSections>
   <Stationery>0</Stationery>
-  <CreationDateTime>9/22/18 7:20 PM</CreationDateTime>
-  <ModifiedDateTime>9/23/18 2:58 PM</ModifiedDateTime>
-  <PageBounds>0 0 17.5555555556 9.95538640448</PageBounds>
+  <CreationDateTime>9/23/18 1:53 PM</CreationDateTime>
+  <ModifiedDateTime>9/23/18 1:59 PM</ModifiedDateTime>
+  <PageBounds>0 0 17.5555555556 9.51388888889</PageBounds>
   <ScreenResolution>0 0 1280 800</ScreenResolution>
   <MathType>0</MathType>
   <AllowOptionsDialogs>1</AllowOptionsDialogs>
@@ -41,22 +41,52 @@
     <BroadcastTo>0 </BroadcastTo>
     <Visible>1</Visible>
     <PageTitle></PageTitle>
-    <PageColor>0xcccc 0xcccc 0xffff| 0xffff 0xffffffff</PageColor>
+    <PageColor>0xcccc 0xcccc 0xffff| 0xffff 0x1d</PageColor>
     <PageDisplayPageInfo>0 </PageDisplayPageInfo>
     <PagePageInfo></PagePageInfo>
     <PageGraphPaper>0 </PageGraphPaper>
     <PageGraphPaperLineSpacing>0.25 </PageGraphPaperLineSpacing>
-    <PageGraphPaperLineColor>0x8484 0x7070 0xffff| 0xffff 0xffffffff</PageGraphPaperLineColor>
+    <PageGraphPaperLineColor>0x8484 0x7070 0xffff| 0xffff 0x1e</PageGraphPaperLineColor>
     <PageReplayWindowPosition>0 100 276 498 457</PageReplayWindowPosition>
+    <PageTable>
+      <ID>107 </ID>
+      <BroadcastTo>0 </BroadcastTo>
+      <Visible>1</Visible>
+      <Bounds>0.015 0.015 2.54055555556 9.49888888889 </Bounds>
+      <SubordinateToID>0</SubordinateToID>
+      <SubordinateOffset>0 0</SubordinateOffset>
+      <BackgroundTransparent>0</BackgroundTransparent>
+      <BackgroundColor>0x0 0x0 0x0| 0xffff 0xfffffffb</BackgroundColor>
+      <AddNewData>1</AddNewData>
+      <Locked>0</Locked>
+      <AutoCreated>0</AutoCreated>
+      <GraphLinkedIDs>0 </GraphLinkedIDs>
+      <YLinkedIDs>0 </YLinkedIDs>
+      <Font>
+        <Size> 12 </Size>
+        <Justification> 2 </Justification>
+        <VerticalJustification> 0 </VerticalJustification>
+        <Styles> 0 0 0 0 0 0 </Styles>
+        <Family> 3 </Family>
+        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
+        <Name>System Font Regular</Name>
+        <Rotation>0</Rotation>
+      </Font>
+      <TableColumn> 102 0.8 </TableColumn>
+      <TableColumn> 104 0.8 </TableColumn>
+      <TableColumn> 110 0.8 </TableColumn>
+      <StartIndex> 0 </StartIndex>
+      <DisplayBlackAndWhite> 0 </DisplayBlackAndWhite>
+    </PageTable>
     <PageGraphCartesian>
       <ID>106 </ID>
-      <BroadcastTo>1 120 </BroadcastTo>
+      <BroadcastTo>1 112 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>2.57067549206 0.015809838838 17.5307154921 9.92934118286 </Bounds>
+      <Bounds>2.57555555556 0.02 17.5355555556 9.49388888889 </Bounds>
       <SubordinateToID>0</SubordinateToID>
-      <SubordinateOffset>-0.00488450792101 -0.00489128960503</SubordinateOffset>
+      <SubordinateOffset>0 0</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
-      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>
+      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>
       <AddNewData>0</AddNewData>
       <Locked>0</Locked>
       <AutoCreated>1</AutoCreated>
@@ -72,8 +102,8 @@
         <Name>System Font Regular</Name>
         <Rotation>0</Rotation>
       </Font>
-      <GraphTitle>ω_F*ω_P/G gegen x</GraphTitle>
-      <GraphTitleColor>0x0 0x0 0x0| 0xffff 0x2e</GraphTitleColor>
+      <GraphTitle>Graph von ω_F*ω_P / G gegen r</GraphTitle>
+      <GraphTitleColor>0x0 0x0 0x0| 0xffff 0x0</GraphTitleColor>
       <GraphShowPoints>0</GraphShowPoints>
       <GraphInterpolate>0</GraphInterpolate>
       <GraphShowTangent>0</GraphShowTangent>
@@ -81,7 +111,7 @@
       <GraphShowCursorStatus>1</GraphShowCursorStatus>
       <GraphShowCursorDelta>1</GraphShowCursorDelta>
       <GraphPlotBaseColumnID>102 </GraphPlotBaseColumnID>
-      <GraphPlotTraceIDPairs>2 102 104 102 122 </GraphPlotTraceIDPairs>
+      <GraphPlotTraceIDPairs>2 102 104 102 114 </GraphPlotTraceIDPairs>
       <LogXAxis>0</LogXAxis>
       <LogYAxis>0</LogYAxis>
       <LogRightYAxis>0</LogRightYAxis>
@@ -92,9 +122,9 @@
       <BinGraphStackColumns>0</BinGraphStackColumns>
       <GraphShowPointProtectors>0</GraphShowPointProtectors>
       <GraphMajorTickStyle>1</GraphMajorTickStyle>
-      <GraphMajorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0xffffffff</GraphMajorTickColor>
+      <GraphMajorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x0</GraphMajorTickColor>
       <GraphMinorTickStyle>0</GraphMinorTickStyle>
-      <GraphMinorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0xffffffff</GraphMinorTickColor>
+      <GraphMinorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x0</GraphMinorTickColor>
       <GraphPlotXAutoscale>3</GraphPlotXAutoscale>
       <GraphPlotYAutoscale>3</GraphPlotYAutoscale>
       <GraphPlotDoubleYAutoscale>3</GraphPlotDoubleYAutoscale>
@@ -104,28 +134,28 @@
       <GraphPlotXAutoscaleHint>0</GraphPlotXAutoscaleHint>
       <GraphPlotYAutoscaleHint>0</GraphPlotYAutoscaleHint>
       <GraphPlotDoubleYAutoscaleHint>0</GraphPlotDoubleYAutoscaleHint>
-      <GraphPlotXMin>-0.01</GraphPlotXMin>
-      <GraphPlotXMax>0.09</GraphPlotXMax>
+      <GraphPlotXMin>-0.06</GraphPlotXMin>
+      <GraphPlotXMax>0.04</GraphPlotXMax>
       <GraphPlotXTicksRotatedAngle>0</GraphPlotXTicksRotatedAngle>
       <ShowAllValuesAsMajorTicks>0</ShowAllValuesAsMajorTicks>
-      <GraphPlotYMin>-0.28</GraphPlotYMin>
-      <GraphPlotYMax>0.16</GraphPlotYMax>
-      <GraphPlotDefaultXMin>-0.01</GraphPlotDefaultXMin>
-      <GraphPlotDefaultXMax>0.09</GraphPlotDefaultXMax>
-      <GraphPlotDefaultYMin>-0.09</GraphPlotDefaultYMin>
-      <GraphPlotDefaultYMax>0.03</GraphPlotDefaultYMax>
+      <GraphPlotYMin>-0.006</GraphPlotYMin>
+      <GraphPlotYMax>0.01</GraphPlotYMax>
+      <GraphPlotDefaultXMin>-0.06</GraphPlotDefaultXMin>
+      <GraphPlotDefaultXMax>0.04</GraphPlotDefaultXMax>
+      <GraphPlotDefaultYMin>0</GraphPlotDefaultYMin>
+      <GraphPlotDefaultYMax>0</GraphPlotDefaultYMax>
       <GraphPlotXLabel></GraphPlotXLabel>
       <GraphPlotYLabel></GraphPlotYLabel>
       <GraphDrawRainbow>0</GraphDrawRainbow>
       <GraphPlotDoubleYAxis>0</GraphPlotDoubleYAxis>
     </PageGraphCartesian>
     <PageHelperDataCurveFit>
-      <ID>120 </ID>
+      <ID>112 </ID>
       <BroadcastTo>0 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>3.93402583047 4.72549378693 6.13724805269 6.54882712026 </Bounds>
+      <Bounds>4.10092625936 0.782637350294 6.38748181491 2.60597068363 </Bounds>
       <SubordinateToID>106</SubordinateToID>
-      <SubordinateOffset>1.36335033841 4.70968394809</SubordinateOffset>
+      <SubordinateOffset>1.5253707038 0.762637350294</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
       <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>
       <AddNewData>0</AddNewData>
@@ -143,8 +173,8 @@
         <Name>System Font Regular</Name>
         <Rotation>0</Rotation>
       </Font>
-      <GUIHelperRangeMin>0</GUIHelperRangeMin>
-      <GUIHelperRangeMax>0.08</GUIHelperRangeMax>
+      <GUIHelperRangeMin>-0.05</GUIHelperRangeMin>
+      <GUIHelperRangeMax>0.03</GUIHelperRangeMax>
       <GUIHelperTraceColumnID>104</GUIHelperTraceColumnID>
       <GUIHelperBaseColumnID>102</GUIHelperBaseColumnID>
       <GUIHelperPrecision>4</GUIHelperPrecision>
@@ -152,44 +182,14 @@
       <GUIHelperMinimized>0</GUIHelperMinimized>
       <GUIHelperUseEntireRange>0</GUIHelperUseEntireRange>
       <GUIHelperUnderlyingHistogramFFTColumnID>0</GUIHelperUnderlyingHistogramFFTColumnID>
-      <CurveFitFunctionID>122</CurveFitFunctionID>
+      <CurveFitFunctionID>114</CurveFitFunctionID>
       <CurveFitColumnID>0</CurveFitColumnID>
-      <CurveFitError>0.0083833060061</CurveFitError>
+      <CurveFitError>0.00387871763999</CurveFitError>
       <CurveFitMethod>1</CurveFitMethod>
       <CurveFitUncertainty>0</CurveFitUncertainty>
       <ManualCurveFitIncrements>0 </ManualCurveFitIncrements>
       <ManualCurveFitShowRMSE>1</ManualCurveFitShowRMSE>
     </PageHelperDataCurveFit>
-    <PageTable>
-      <ID>107 </ID>
-      <BroadcastTo>0 </BroadcastTo>
-      <Visible>1</Visible>
-      <Bounds>0.015 0.0156960836742 2.54055999998 9.93969148348 </Bounds>
-      <SubordinateToID>0</SubordinateToID>
-      <SubordinateOffset>0 0</SubordinateOffset>
-      <BackgroundTransparent>0</BackgroundTransparent>
-      <BackgroundColor>0x0 0x0 0x0| 0xffff 0x2e</BackgroundColor>
-      <AddNewData>1</AddNewData>
-      <Locked>0</Locked>
-      <AutoCreated>0</AutoCreated>
-      <GraphLinkedIDs>0 </GraphLinkedIDs>
-      <YLinkedIDs>0 </YLinkedIDs>
-      <Font>
-        <Size> 12 </Size>
-        <Justification> 2 </Justification>
-        <VerticalJustification> 0 </VerticalJustification>
-        <Styles> 0 0 0 0 0 0 </Styles>
-        <Family> 3 </Family>
-        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
-        <Name>System Font Regular</Name>
-        <Rotation>0</Rotation>
-      </Font>
-      <TableColumn> 102 0.799999999998 </TableColumn>
-      <TableColumn> 104 0.799999999998 </TableColumn>
-      <TableColumn> 118 0.799999999998 </TableColumn>
-      <StartIndex> 0 </StartIndex>
-      <DisplayBlackAndWhite> 0 </DisplayBlackAndWhite>
-    </PageTable>
   </Page>
   <CurrentPageIndex>0</CurrentPageIndex>
   <DataSet>
@@ -212,9 +212,9 @@
       <ID>102 </ID>
       <BroadcastTo>2 106 107 </BroadcastTo>
       <Visible>1</Visible>
-      <DataObjectName>x</DataObjectName>
+      <DataObjectName>Abstand von Massenmittelpunkt</DataObjectName>
       <DataObjectShortName></DataObjectShortName>
-      <DataObjectColor>0x0 0x0 0x0| 0xffff 0x2e</DataObjectColor>
+      <DataObjectColor>0x0 0x0 0x0| 0xffff 0x0</DataObjectColor>
       <DataObjectDataSource>0</DataObjectDataSource>
       <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
       <DataObjectPrecision>2</DataObjectPrecision>
@@ -225,7 +225,7 @@
       <ColumnUserEditable>1</ColumnUserEditable>
       <ColumnTreatAsText>0</ColumnTreatAsText>
       <ColumnDataType>0</ColumnDataType>
-      <StartTime>1537636833</StartTime>
+      <StartTime>1537703601</StartTime>
       <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>
       <ColumnGeoRole>n-a</ColumnGeoRole>
       <ColumnGeoDisplay>DD</ColumnGeoDisplay>
@@ -239,7 +239,7 @@
       <ColumnUseErrorCalculations>1</ColumnUseErrorCalculations>
       <ColumnErrorFixed>1</ColumnErrorFixed>
       <ColumnErrorConstant>1</ColumnErrorConstant>
-      <ColumnErrorValue>0.001</ColumnErrorValue>
+      <ColumnErrorValue>0.002</ColumnErrorValue>
       <ColumnErrorColumnID>0</ColumnErrorColumnID>
       <ColumnForceScientific>0</ColumnForceScientific>
       <ColumnSensorColumn>0</ColumnSensorColumn>
@@ -258,26 +258,26 @@
       <ColumnLastDataCollectedMode>0</ColumnLastDataCollectedMode>
       <ColumnGroupID>103</ColumnGroupID>
       <ColumnCells>
-0
-0.01
+0.03
 0.02
-0.04
-0.05
-0.06
-0.07
-0.08
+0.01
+-0.01
+-0.02
+-0.03
+-0.04
+-0.05
 </ColumnCells>
     </DataColumn>
     <DataColumn>
       <ID>104 </ID>
       <BroadcastTo>2 106 107 </BroadcastTo>
       <Visible>1</Visible>
-      <DataObjectName>ω_F*ω_P/G'</DataObjectName>
+      <DataObjectName>ω_F*ω_P / G</DataObjectName>
       <DataObjectShortName></DataObjectShortName>
-      <DataObjectColor>0xffff 0x0 0x3333| 0xffff 0xffffffff</DataObjectColor>
+      <DataObjectColor>0xffff 0x0 0x3333| 0xffff 0x0</DataObjectColor>
       <DataObjectDataSource>0</DataObjectDataSource>
       <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
-      <DataObjectPrecision>9</DataObjectPrecision>
+      <DataObjectPrecision>6</DataObjectPrecision>
       <DataObjectAutomaticDecimal>1</DataObjectAutomaticDecimal>
       <DataObjectThickLines>0</DataObjectThickLines>
       <ColumnUnits>rad&#178;s⁻&#178;N⁻¹</ColumnUnits>
@@ -285,7 +285,7 @@
       <ColumnUserEditable>1</ColumnUserEditable>
       <ColumnTreatAsText>0</ColumnTreatAsText>
       <ColumnDataType>0</ColumnDataType>
-      <StartTime>1537636833</StartTime>
+      <StartTime>1537703601</StartTime>
       <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>
       <ColumnGeoRole>n-a</ColumnGeoRole>
       <ColumnGeoDisplay>DD</ColumnGeoDisplay>
@@ -300,7 +300,7 @@
       <ColumnErrorFixed>1</ColumnErrorFixed>
       <ColumnErrorConstant>0</ColumnErrorConstant>
       <ColumnErrorValue>0</ColumnErrorValue>
-      <ColumnErrorColumnID>118</ColumnErrorColumnID>
+      <ColumnErrorColumnID>110</ColumnErrorColumnID>
       <ColumnForceScientific>0</ColumnForceScientific>
       <ColumnSensorColumn>0</ColumnSensorColumn>
       <ColumnSensorInputColumn>0</ColumnSensorInputColumn>
@@ -318,23 +318,23 @@
       <ColumnLastDataCollectedMode>0</ColumnLastDataCollectedMode>
       <ColumnGroupID>105</ColumnGroupID>
       <ColumnCells>
-0.154573066
-0.089944263
-0.042391806
--0.07128824
--0.124978694
--0.180252276
--0.220765089
--0.264126425
+0.00243
+0.00421
+0.008865
+-0.00529
+-0.003
+-0.002
+-0.0017
+-0.0014
 </ColumnCells>
     </DataColumn>
     <DataColumn>
-      <ID>118 </ID>
+      <ID>110 </ID>
       <BroadcastTo>2 104 107 </BroadcastTo>
       <Visible>1</Visible>
-      <DataObjectName>error</DataObjectName>
+      <DataObjectName>Error</DataObjectName>
       <DataObjectShortName>C</DataObjectShortName>
-      <DataObjectColor>0x0 0x0 0xffff| 0xffff 0xffffffff</DataObjectColor>
+      <DataObjectColor>0x0 0x0 0xffff| 0xffff 0x0</DataObjectColor>
       <DataObjectDataSource>0</DataObjectDataSource>
       <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
       <DataObjectPrecision>9</DataObjectPrecision>
@@ -345,7 +345,7 @@
       <ColumnUserEditable>1</ColumnUserEditable>
       <ColumnTreatAsText>0</ColumnTreatAsText>
       <ColumnDataType>0</ColumnDataType>
-      <StartTime>1537637107</StartTime>
+      <StartTime>1537703758</StartTime>
       <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>
       <ColumnGeoRole>n-a</ColumnGeoRole>
       <ColumnGeoDisplay>DD</ColumnGeoDisplay>
@@ -376,21 +376,21 @@
       <ColumnNumber>10</ColumnNumber>
       <ColumnShowLiveReadout>0</ColumnShowLiveReadout>
       <ColumnLastDataCollectedMode>0</ColumnLastDataCollectedMode>
-      <ColumnGroupID>119</ColumnGroupID>
+      <ColumnGroupID>111</ColumnGroupID>
       <ColumnCells>
-0.00082137
-0.009760448
-0.001339635
-0.006197836
-0.002980943
-0.000700328
-0.009833643
-0.012454585
+1.29457e-05
+0.000486468
+0.000275244
+0.000445927
+7.07428e-05
+8.11351e-06
+7.59139e-05
+6.63287e-05
 </ColumnCells>
     </DataColumn>
   </DataSet>
   <DataSet>
-    <ID>121 </ID>
+    <ID>113 </ID>
     <BroadcastTo>0 </BroadcastTo>
     <Visible>1</Visible>
     <DataSetName>&#38;&#38;^% CurveFitFunctions %^&#38;&#38;</DataSetName>
@@ -406,7 +406,7 @@
     <DataSetVideoAnalysis>0</DataSetVideoAnalysis>
     <DataSetGraphMatch>0</DataSetGraphMatch>
     <FunctionModel>
-      <ID>122 </ID>
+      <ID>114 </ID>
       <BroadcastTo>1 106 </BroadcastTo>
       <Visible>1</Visible>
       <DataObjectName>mx+b</DataObjectName>
@@ -422,8 +422,8 @@
       <FunctionModelString>m*x+b</FunctionModelString>
       <FunctionModelLinear>0</FunctionModelLinear>
       <FunctionModelType>1</FunctionModelType>
-      <FunctionCoefficientArray>2 -5.27453109023 0.145761708847 </FunctionCoefficientArray>
-      <FunctionCoefficientUncertaintyArray>2 0.109257147807 0.00539413946755 </FunctionCoefficientUncertaintyArray>
+      <FunctionCoefficientArray>2 0.0985891719745 0.00137350318471 </FunctionCoefficientArray>
+      <FunctionCoefficientUncertaintyArray>2 0.0505501798675 0.00148457539064 </FunctionCoefficientUncertaintyArray>
       <FunctionModelInvalidDataFlags>0</FunctionModelInvalidDataFlags>
       <FunctionModelParameterNames></FunctionModelParameterNames>
       <FunctionModelTimeOffset>0</FunctionModelTimeOffset>
@@ -495,11 +495,11 @@
       <GoogleMapsLongitudeColumnID>0</GoogleMapsLongitudeColumnID>
       <GoogleMapsShowMarkers>1</GoogleMapsShowMarkers>
       <GoogleMapsMarkerOptions>0</GoogleMapsMarkerOptions>
-      <GoogleMapsValueColumnID>0</GoogleMapsValueColumnID>
+      <GoogleMapsValueColumnID>488402560</GoogleMapsValueColumnID>
       <GoogleMapsOpenAnnotations>0</GoogleMapsOpenAnnotations>
       <GoogleMapsDrawLine>0</GoogleMapsDrawLine>
       <GoogleMapsDrawLineSingleColor>0</GoogleMapsDrawLineSingleColor>
-      <GoogleMapsingleColor>0x0 0x0 0x0| 0xffff 0x2e</GoogleMapsingleColor>
+      <GoogleMapsingleColor>0x0 0x0 0x0| 0xffff 0x0</GoogleMapsingleColor>
       <GoogleMapsDrawLineColumnID>0</GoogleMapsDrawLineColumnID>
       <GoogleMapsDrawLineAutoScale>0</GoogleMapsDrawLineAutoScale>
       <GoogleMapsDrawLineSmooth>1</GoogleMapsDrawLineSmooth>

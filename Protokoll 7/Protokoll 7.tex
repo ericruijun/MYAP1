@@ -64,15 +64,22 @@ und deshalb:
 $$\frac{d\vec{L}}{dt} = \vec{\omega_P}\times \vec{L}$$
 und mit Gleichung (1) und (2):
 $$\vec{r}\times \vec{G} = \vec{\omega_P}\times \vec{L}$$
-Angenommen, dass die Rotationsgeschwindigkeit, $\omega_F$, viel größer ist als die Präzessionsgeschwindigkeit, $\omega_P$ ist, können $\vec{L}$ zu $I_A\vec{\omega}_A$ und $\omega_A$ zu $\omega_F$ angenähert werden. Wobei $\vec{L}$ die Drehmoment, $I_A$ die Trägheitsmoment entlang der Figurenachse und $\omega_A$ der Anteil der Gesamt-Winkelgeschwindigkeit entlang der Figurenachse sind. 
-
-
+Angenommen, dass die Rotationsgeschwindigkeit, $\omega_F$, viel größer ist als die Präzessionsgeschwindigkeit, $\omega_P$ ist, können $\vec{L}$ zu $I_A\vec{\omega}_A$ und $\omega_A$ zu $\omega_F$ angenähert werden. Wobei $\vec{L}$ die Drehmoment, $I_A$ die Trägheitsmoment entlang der Figurenachse und $\omega_A$ der Anteil der Gesamt-Winkelgeschwindigkeit entlang der Figurenachse sind. Wenn man nur die Beträge betrachtet, kann die obige Formel zu 
+\begin{equation}
+I_A = \frac{rG}{\omega_F \omega_P}
+\end{equation}
+umgeformt werden.
 
 \section{Ziel des Versuchs}
 Das Ziel dieses Versuchs ist es, das Trägheitsmoment des Kreisels entlang der Figurenachse durch die Messung der Präzessions- und Rotationsgeschwindigkeiten zu bestimmen.
 
 \section{Aufbau}
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.5]{Abb}
+	\caption{Aufbau zum Versuch ("Versuchsanleitungen")}
+\end{figure}
 \section{Durchführung}
 
 \section{Auswertung und Fehleranalyse}
@@ -88,7 +95,10 @@ Wobei $T_\textrm{Tot}$ die gesamte Zeitdauer der Messung, und $n$ die Anzahl Dre
 Für den Fehler wurde der Messfehler durch $sqrt{n}$ geteilt, da es handelt sich um einen Mittelwert.
 \end{tcolorbox}
 
-Um den Offset zwischen $x$, der Skala auf der Kreiselachse, und $r$, der Abstand zwischen den Schwerpunkt und Unterstützungspunkt zu bestimmen wurde $\frac{\omega_F\omega_P}{G}$ gegen $x$ aufgetragen. Da $I_A$ eine Konstante ist, muss $\omega_P$ bei $r = 0$ unendlich sein. Deswegen in einem Plot von $\frac{\omega_F\omega_P}{G}$ gegen $x$ soll es eine Unstetigkeitsstelle geben. Der $x$ Wert von dieser Unstetigkeitsstelle ist dann das Offset zwischen $x$ und $r$ (Siehe Abbildung 1).
+Um den Offset zwischen $x$, der Skala auf der Kreiselachse, und $r$, der Abstand zwischen den Schwerpunkt und Unterstützungspunkt zu bestimmen wurde $\frac{\omega_F\omega_P}{G}$ gegen $x$ aufgetragen. Der x-Achsenabschnitt is dann der Offset zwischen $x$ und $r$, da nach Gleichung (3) sollen $\frac{\omega_F\omega_P}{G}$ proportional zu $r$ sein und die Fit-Kurve den Nullpunkt schneiden. Die Steigung entspricht dann $-\frac{1}{I_A}$. Da Gleichung (3) lässt sich umformen als:
+$$ \frac{\omega_F\omega_P}{G}  = \frac{1}{I_A} r$$. Es ist hier zu beachten, dass die Steigung negativ ist, da die Werte für $x$ und $r$ in andere Richtungen gemessen werden. Die Berechnung wurde mit einem Excel-Dokument und die Darstellung mit Logger-Pro gemacht (Siehe Abbildung 2).
+
+
 \begin{tcolorbox}[colback=white] 
 \subsubsection{Rechenweg}
 Zuerst wurden die Werte für $\frac{\omega_F\omega_P}{G}$ für alle Messreihen berechnet. Die Fehler für $\frac{\omega_F\omega_P}{G}$ wurden mit der Formel für die Standardabweichung bestimmt, nämlich:
@@ -98,44 +108,17 @@ $$s_x = \sqrt{\frac{\sum_{i=1}^{n}(x_i-\bar{x})^2}{n-1}} $$
 \begin{figure}
 	\centering
 	\includegraphics[width=\linewidth]{Abb1}
-	\caption{$\frac{\omega_F\omega_P}{G}$ als Funktion von der Position $x$}
+	\caption{Eine Graph von $\frac{\omega_F\omega_P}{G}$ als Funktion von $x$}
 \end{figure}
+Das Trägheitsmoment entlang der Figurenachse ist deshalb:
+$$I_A = (0,190 \pm 0,004) \textrm{kgm}^2$$
 
-Angenommen, dass der Verlauf etwas wie Abbildung (2) aussieht, kann es abgeschätzt werden, dass die Unstetigkeitsstelle ungefähr bei $x=0,03$m liegt. Das wurde auch experimentell bestätigt, da bei $x=0,03$ schient es so, als gäbe es keine Präzession. Der Fehler wurde als 0,002 m abgeschätzt. die Werte für $x$ kann jetzt in $r$ umgerechnet werden (Siehe Tabelle 1). 
-
-\begin{figure}
-	\centering
-	\includegraphics[width=\linewidth]{Abb2}
-	\caption{Eine Beispielfunktion}
-\end{figure}
-
-\begin{table}[h]
-	\centering
-	\begin{tabular*}{0.15\textwidth}{@{\extracolsep{\fill}}rr}
-		\toprule
-		\multicolumn{1}{c}{$x$} & \multicolumn{1}{c}{$r$}\\
-		\multicolumn{1}{c}{m} & \multicolumn{1}{c}{m} \\
-		\midrule
-		0 &  0,03\\
-		0,01 &  0,02\\
-		0,02 &  0,01\\
-		0,04 & -0,01\\
-		0,05 & -0,02\\
-		0,06 & -0,03\\
-		0,07 & -0,04\\ 
-		0,08 & -0,05\\
-		\bottomrule
-	\end{tabular*}
-	\caption{Umrechnung von $x$ auf $r$}
-	\label{tabelle}
-\end{table}
-
-$\frac{\omega_F\omega_P}{G}$ wurde gegen $r$ geplottet. In diesem Fall entspricht die Steigung dem Wert für $\frac{1}{I_A}$, da die Formel für $I_A$ lässt sich umformen als:
-$$\frac{\omega_F\omega_P}{G} = \frac{1}{I_A}r$$ 
-Mit einem Microsoft-Excel Dokument wurde die lineare Regression und die Fehlerrechnungen durchgeführt. 
-
+Die Unsicherheit wurde mit der Vereinfachten Formel für Produkte und Quotienten berechnet. 
 \section{Diskussion der Ergebnisse}
+Der berechnete Wert für $I_A$ ist:
+$$I_A = (0,190 \pm 0,004) \textrm{kgm}^2$$
 
+Da es keinen Literatur- oder direkt gemessenen Wert für das Trägheitsmoment des Kreisels gibt, kann keinen direkten Vergleich gemacht werden. Trotzdem kann ein Maximalwert berechnet werden, indem man den Idealfall betrachtet. Für einen idealen Hohlzylinder, ist sein Trägheitsmoment $I = mr^2$. Deswegen ist das maximale theoretische Trägheitsmoment des Kreisels 0,32 kgm$^2$, angenommen, dass der Durchmesser des Kreisels nicht größer als 0,5 Meter war. In der Realität ist das Trägheitsmoment viel kleiner als dieser Wert, da ein Kreisel hat auch Masse innerhalb des Radius. Da der gemessene Wert kleiner als dieser Wert ist, kann es gesagt werden, dass der gemessene Wert vernünftig ist. Außerdem beträgt seine relative Unsicherheit ungefähr 0,02, was nicht schlecht ist für so ein grober Versuch. Das Ergebnis ist deshalb plausibel und kann als Beweis für Gleichung (3) dienen. 
 \section{Literatur}
 
 \section{Anhang}
