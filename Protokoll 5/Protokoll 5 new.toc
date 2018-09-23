@@ -14,5 +14,5 @@
 \contentsline {subsection}{\numberline {5.1}diskussion der Werte}{9}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Systematische und statistische Fehler}{10}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3} M"ogliche Verbesserungen}{10}{subsection.5.3}
-\contentsline {section}{\numberline {6}Literatur}{10}{section.6}
-\contentsline {section}{\numberline {7}Anhang}{10}{section.7}
+\contentsline {section}{\numberline {6}Literatur und Bildquellen}{10}{section.6}
+\contentsline {section}{\numberline {7}Anhang}{11}{section.7}
