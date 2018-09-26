@@ -20,7 +20,7 @@
   <GraphMatchNumSections>0</GraphMatchNumSections>
   <Stationery>0</Stationery>
   <CreationDateTime>9/25/18 2:33 PM</CreationDateTime>
-  <ModifiedDateTime>9/26/18 3:28 PM</ModifiedDateTime>
+  <ModifiedDateTime>9/26/18 6:43 PM</ModifiedDateTime>
   <PageBounds>0 0 17.5555555556 9.95538640448</PageBounds>
   <ScreenResolution>0 0 1280 800</ScreenResolution>
   <MathType>0</MathType>
@@ -52,7 +52,7 @@
       <ID>107 </ID>
       <BroadcastTo>0 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>0.015 0.0156960836742 2.54055555553 9.93969032081 </Bounds>
+      <Bounds>0.015 0.0156960836742 2.54055555552 9.93969032081 </Bounds>
       <SubordinateToID>0</SubordinateToID>
       <SubordinateOffset>0 0</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
@@ -72,14 +72,14 @@
         <Name>System Font Regular</Name>
         <Rotation>0</Rotation>
       </Font>
-      <TableColumn> 102 0.799999999994 </TableColumn>
-      <TableColumn> 104 0.799999999994 </TableColumn>
-      <TableColumn> 118 0.799999999994 </TableColumn>
-      <TableColumn> 124 0.799999999994 </TableColumn>
-      <TableColumn> 112 0.799999999994 </TableColumn>
-      <TableColumn> 115 0.799999999994 </TableColumn>
-      <TableColumn> 120 0.799999999994 </TableColumn>
-      <TableColumn> 126 0.799999999994 </TableColumn>
+      <TableColumn> 102 0.799999999992 </TableColumn>
+      <TableColumn> 104 0.799999999992 </TableColumn>
+      <TableColumn> 118 0.799999999992 </TableColumn>
+      <TableColumn> 124 0.799999999992 </TableColumn>
+      <TableColumn> 112 0.799999999992 </TableColumn>
+      <TableColumn> 115 0.799999999992 </TableColumn>
+      <TableColumn> 120 0.799999999992 </TableColumn>
+      <TableColumn> 126 0.799999999992 </TableColumn>
       <StartIndex> 0 </StartIndex>
       <DisplayBlackAndWhite> 0 </DisplayBlackAndWhite>
     </PageTable>
@@ -87,7 +87,7 @@
       <ID>106 </ID>
       <BroadcastTo>3 128 129 152 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>2.57555555553 0.0156733441731 17.5355555556 9.92920352552 </Bounds>
+      <Bounds>2.57555555552 0.0156733441731 17.5355555556 9.92920352552 </Bounds>
       <SubordinateToID>0</SubordinateToID>
       <SubordinateOffset>0 -0.00502173105876</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
@@ -108,7 +108,7 @@
         <Rotation>0</Rotation>
       </Font>
       <GraphTitle>Durchbiegung als Funktion des Gewichts für verschiedene Abstände zwischen den Schneiden</GraphTitle>
-      <GraphTitleColor>0x0 0x0 0x0| 0xffff 0x0</GraphTitleColor>
+      <GraphTitleColor>0x0 0x0 0x0| 0xffff 0x2e</GraphTitleColor>
       <GraphShowPoints>0</GraphShowPoints>
       <GraphInterpolate>0</GraphInterpolate>
       <GraphShowTangent>0</GraphShowTangent>
@@ -127,9 +127,9 @@
       <BinGraphStackColumns>0</BinGraphStackColumns>
       <GraphShowPointProtectors>1</GraphShowPointProtectors>
       <GraphMajorTickStyle>1</GraphMajorTickStyle>
-      <GraphMajorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x0</GraphMajorTickColor>
+      <GraphMajorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0xffffffff</GraphMajorTickColor>
       <GraphMinorTickStyle>0</GraphMinorTickStyle>
-      <GraphMinorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x0</GraphMinorTickColor>
+      <GraphMinorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0xffffffff</GraphMinorTickColor>
       <GraphPlotXAutoscale>3</GraphPlotXAutoscale>
       <GraphPlotYAutoscale>3</GraphPlotYAutoscale>
       <GraphPlotDoubleYAutoscale>3</GraphPlotDoubleYAutoscale>
@@ -158,7 +158,7 @@
       <ID>152 </ID>
       <BroadcastTo>0 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>15.794103285 3.6254921842 17.0806588406 4.92104773976 </Bounds>
+      <Bounds>15.794103285 3.6254921842 17.0806588405 4.92104773976 </Bounds>
       <SubordinateToID>106</SubordinateToID>
       <SubordinateOffset>13.2185477295 3.60981884003</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
@@ -183,7 +183,7 @@
       <ID>128 </ID>
       <BroadcastTo>0 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>3.633691118 0.824469799904 5.37858000689 2.64780313324 </Bounds>
+      <Bounds>3.63369111799 0.824469799904 5.37858000688 2.64780313324 </Bounds>
       <SubordinateToID>106</SubordinateToID>
       <SubordinateOffset>1.05813556247 0.808796455731</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
@@ -224,9 +224,9 @@
       <ID>129 </ID>
       <BroadcastTo>0 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>5.60278444073 0.812473303763 7.34767332961 2.6358066371 </Bounds>
+      <Bounds>5.60278444071 0.812473303763 7.34767332959 2.6358066371 </Bounds>
       <SubordinateToID>106</SubordinateToID>
-      <SubordinateOffset>3.02722888519 0.79679995959</SubordinateOffset>
+      <SubordinateOffset>3.02722888518 0.79679995959</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
       <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>
       <AddNewData>0</AddNewData>
@@ -581,9 +581,9 @@
 0.19955
 0.39951
 0.59906
-0.79887
-0.99838
-1.19827
+0.64909
+0.69912
+0.84906
 </ColumnCells>
     </DataColumn>
     <DataColumn>
