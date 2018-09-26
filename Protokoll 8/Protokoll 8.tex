@@ -86,26 +86,26 @@ Dieser Prozesse wurde für unterschiedliche Materialien, Ausrichtungen des Stabs
 \section{Auswertung und Fehleranalyse}
 Für jede Messreihe wurden die jeweiligen Mittelwerte in einer Graph aufgetragen. 
 
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{Abb2}
 	\caption{ayy lmao}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{Abb3}
 	\caption{ayy lmao}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{Abb4}
 	\caption{ayy lmao}
 \end{figure}
-
-Mit einem Excel-Dokument wurde die lineare Regressionen berechnet. Die lineare Zusammenhänge lassen sich in der Form:
-$$ s = a + bm $$ schreiben. Die einzelne Werte für $a$ und $b$ für jede Messreihe sind in Tabelle 1 bis 3 zu sehen. 
+\FloatBarrier
+Mit einem Excel-Dokument wurde die lineare Regressionen und deren Unsicherheit berechnet. Die lineare Zusammenhänge lassen sich in der Form: 
+$$ s = a + bm $$ schreiben. Die einzelne Werte für $a$ und $b$ für jede Messreihe sind in Tabelle 1 bis 3 zu sehen (Achtung, dass in diesem Kontext $b$ nicht die Breite des Stabes ist). 
 
 \begin{table} [h]
 	\begin{tabular*}{0.99\textwidth}{@{\extracolsep{\fill}}c|cccccc}
@@ -135,7 +135,26 @@ $$ s = a + bm $$ schreiben. Die einzelne Werte für $a$ und $b$ für jede Messre
 	\caption{Werte für $a$ und $b$ und deren Unsicherheiten für unterschiedliche Ausrichtungen des Stabprofils}
 \end{table}
 
- 
+\begin{table} [h]
+	\begin{tabular*}{0.99\textwidth}{@{\extracolsep{\fill}}c|cccc}
+		\toprule
+		Abstand & $a$ & $u_a$ & $b$ & $u_b$  \\
+		& mm & mm & mm kg$^{-1}$ & mmkg $^{-1}$  \\
+		\bottomrule
+		Horizontal & -0,006 & 0,006 & 2,352 & 0,008 \\
+		Vertikal & -0,003 & 0,005 & 1,048 & 0,006 \\
+		
+		\bottomrule
+	\end{tabular*}
+	\caption{Werte für $a$ und $b$ und deren Unsicherheiten für unterschiedliche Abstände zwischen den Schneiden}
+\end{table}
+\FloatBarrier
+Mit Formel (2) und $F = mg$ kann man leicht sehen, dass die Steigung $b$ dem Wert $\frac{1}{E}\frac{gl^3}{4h^3b}$ Entspricht. Dadurch lässt sich der Wert von $E$ berechnen:
+$$ E = \frac{gl^3}{4h^3bS}$$
+In dieser Formel ist $S$ die Steigung, um Verwechslung mit dem Buchstabe für Breite zu vermeiden. Die Berechnete Werte für $E$ und deren Unsicherheiten für jede Messreihe sind:
+
+
+
 \section{Diskussion der Ergebnisse}
 
 \section{Literatur}

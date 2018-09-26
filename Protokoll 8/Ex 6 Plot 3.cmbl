@@ -20,7 +20,7 @@
   <GraphMatchNumSections>0</GraphMatchNumSections>
   <Stationery>0</Stationery>
   <CreationDateTime>9/25/18 2:33 PM</CreationDateTime>
-  <ModifiedDateTime>9/26/18 2:37 PM</ModifiedDateTime>
+  <ModifiedDateTime>9/26/18 3:28 PM</ModifiedDateTime>
   <PageBounds>0 0 17.5555555556 9.95538640448</PageBounds>
   <ScreenResolution>0 0 1280 800</ScreenResolution>
   <MathType>0</MathType>
@@ -52,7 +52,7 @@
       <ID>107 </ID>
       <BroadcastTo>0 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>0.015 0.0156960836742 2.54055555555 9.93969032081 </Bounds>
+      <Bounds>0.015 0.0156960836742 2.54055555553 9.93969032081 </Bounds>
       <SubordinateToID>0</SubordinateToID>
       <SubordinateOffset>0 0</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
@@ -72,22 +72,22 @@
         <Name>System Font Regular</Name>
         <Rotation>0</Rotation>
       </Font>
-      <TableColumn> 102 0.799999999998 </TableColumn>
-      <TableColumn> 104 0.799999999998 </TableColumn>
-      <TableColumn> 118 0.799999999998 </TableColumn>
-      <TableColumn> 124 0.799999999998 </TableColumn>
-      <TableColumn> 112 0.799999999998 </TableColumn>
-      <TableColumn> 115 0.799999999998 </TableColumn>
-      <TableColumn> 120 0.799999999998 </TableColumn>
-      <TableColumn> 126 0.799999999998 </TableColumn>
+      <TableColumn> 102 0.799999999994 </TableColumn>
+      <TableColumn> 104 0.799999999994 </TableColumn>
+      <TableColumn> 118 0.799999999994 </TableColumn>
+      <TableColumn> 124 0.799999999994 </TableColumn>
+      <TableColumn> 112 0.799999999994 </TableColumn>
+      <TableColumn> 115 0.799999999994 </TableColumn>
+      <TableColumn> 120 0.799999999994 </TableColumn>
+      <TableColumn> 126 0.799999999994 </TableColumn>
       <StartIndex> 0 </StartIndex>
       <DisplayBlackAndWhite> 0 </DisplayBlackAndWhite>
     </PageTable>
     <PageGraphCartesian>
       <ID>106 </ID>
-      <BroadcastTo>2 128 129 </BroadcastTo>
+      <BroadcastTo>3 128 129 152 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>2.57555555555 0.0156733441731 17.5355555556 9.92920352552 </Bounds>
+      <Bounds>2.57555555553 0.0156733441731 17.5355555556 9.92920352552 </Bounds>
       <SubordinateToID>0</SubordinateToID>
       <SubordinateOffset>0 -0.00502173105876</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
@@ -112,7 +112,7 @@
       <GraphShowPoints>0</GraphShowPoints>
       <GraphInterpolate>0</GraphInterpolate>
       <GraphShowTangent>0</GraphShowTangent>
-      <GraphShowLegend>0</GraphShowLegend>
+      <GraphShowLegend>1</GraphShowLegend>
       <GraphShowCursorStatus>1</GraphShowCursorStatus>
       <GraphShowCursorDelta>1</GraphShowCursorDelta>
       <GraphPlotBaseColumnID>102 </GraphPlotBaseColumnID>
@@ -150,17 +150,42 @@
       <GraphPlotDefaultYMin>0</GraphPlotDefaultYMin>
       <GraphPlotDefaultYMax>3</GraphPlotDefaultYMax>
       <GraphPlotXLabel></GraphPlotXLabel>
-      <GraphPlotYLabel></GraphPlotYLabel>
+      <GraphPlotYLabel>Durchbiegung (mm)</GraphPlotYLabel>
       <GraphDrawRainbow>0</GraphDrawRainbow>
       <GraphPlotDoubleYAxis>0</GraphPlotDoubleYAxis>
     </PageGraphCartesian>
+    <PageHelperLegend>
+      <ID>152 </ID>
+      <BroadcastTo>0 </BroadcastTo>
+      <Visible>1</Visible>
+      <Bounds>15.794103285 3.6254921842 17.0806588406 4.92104773976 </Bounds>
+      <SubordinateToID>106</SubordinateToID>
+      <SubordinateOffset>13.2185477295 3.60981884003</SubordinateOffset>
+      <BackgroundTransparent>0</BackgroundTransparent>
+      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>
+      <AddNewData>0</AddNewData>
+      <Locked>0</Locked>
+      <AutoCreated>0</AutoCreated>
+      <GraphLinkedIDs>0 </GraphLinkedIDs>
+      <YLinkedIDs>0 </YLinkedIDs>
+      <Font>
+        <Size> 10 </Size>
+        <Justification> 0 </Justification>
+        <VerticalJustification> 0 </VerticalJustification>
+        <Styles> 0 0 0 0 0 0 </Styles>
+        <Family> 3 </Family>
+        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
+        <Name>System Font Regular</Name>
+        <Rotation>0</Rotation>
+      </Font>
+    </PageHelperLegend>
     <PageHelperDataCurveFit>
       <ID>128 </ID>
       <BroadcastTo>0 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>4.07555555555 1.58528171159 5.82044444444 3.40861504493 </Bounds>
+      <Bounds>3.633691118 0.824469799904 5.37858000689 2.64780313324 </Bounds>
       <SubordinateToID>106</SubordinateToID>
-      <SubordinateOffset>1.5 1.56960836742</SubordinateOffset>
+      <SubordinateOffset>1.05813556247 0.808796455731</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
       <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>
       <AddNewData>0</AddNewData>
@@ -199,9 +224,9 @@
       <ID>129 </ID>
       <BroadcastTo>0 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>6.41734861584 0.983066141626 8.13445972695 2.80639947496 </Bounds>
+      <Bounds>5.60278444073 0.812473303763 7.34767332961 2.6358066371 </Bounds>
       <SubordinateToID>106</SubordinateToID>
-      <SubordinateOffset>3.84179306029 0.967392797453</SubordinateOffset>
+      <SubordinateOffset>3.02722888519 0.79679995959</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
       <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>
       <AddNewData>0</AddNewData>
@@ -242,7 +267,7 @@
     <ID>101 </ID>
     <BroadcastTo>1 107 </BroadcastTo>
     <Visible>1</Visible>
-    <DataSetName>Data Set</DataSetName>
+    <DataSetName>l = 51,5cm</DataSetName>
     <DataSetComments></DataSetComments>
     <DataSetSourceName></DataSetSourceName>
     <DataSetShowInDataBrowser>1</DataSetShowInDataBrowser>
@@ -491,7 +516,7 @@
     <ID>109 </ID>
     <BroadcastTo>1 107 </BroadcastTo>
     <Visible>1</Visible>
-    <DataSetName>Data Set 2</DataSetName>
+    <DataSetName>l = 60,9cm</DataSetName>
     <DataSetComments></DataSetComments>
     <DataSetSourceName></DataSetSourceName>
     <DataSetShowInDataBrowser>1</DataSetShowInDataBrowser>

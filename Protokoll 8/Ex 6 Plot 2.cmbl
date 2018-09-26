@@ -20,7 +20,7 @@
   <GraphMatchNumSections>0</GraphMatchNumSections>
   <Stationery>0</Stationery>
   <CreationDateTime>9/25/18 2:16 PM</CreationDateTime>
-  <ModifiedDateTime>9/25/18 3:40 PM</ModifiedDateTime>
+  <ModifiedDateTime>9/26/18 3:26 PM</ModifiedDateTime>
   <PageBounds>0 0 17.5555555556 9.95538640448</PageBounds>
   <ScreenResolution>0 0 1280 800</ScreenResolution>
   <MathType>0</MathType>
@@ -52,7 +52,7 @@
       <ID>107 </ID>
       <BroadcastTo>0 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>0.015 0.0156960836742 2.54055555555 9.93969032081 </Bounds>
+      <Bounds>0.015 0.0156960836742 2.54055555554 9.93969032081 </Bounds>
       <SubordinateToID>0</SubordinateToID>
       <SubordinateOffset>0 0</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
@@ -72,22 +72,22 @@
         <Name>System Font Regular</Name>
         <Rotation>0</Rotation>
       </Font>
-      <TableColumn> 102 0.799999999998 </TableColumn>
-      <TableColumn> 104 0.799999999998 </TableColumn>
-      <TableColumn> 118 0.799999999998 </TableColumn>
-      <TableColumn> 124 0.799999999998 </TableColumn>
-      <TableColumn> 112 0.799999999998 </TableColumn>
-      <TableColumn> 115 0.799999999998 </TableColumn>
-      <TableColumn> 120 0.799999999998 </TableColumn>
-      <TableColumn> 126 0.799999999998 </TableColumn>
+      <TableColumn> 102 0.799999999996 </TableColumn>
+      <TableColumn> 104 0.799999999996 </TableColumn>
+      <TableColumn> 118 0.799999999996 </TableColumn>
+      <TableColumn> 124 0.799999999996 </TableColumn>
+      <TableColumn> 112 0.799999999996 </TableColumn>
+      <TableColumn> 115 0.799999999996 </TableColumn>
+      <TableColumn> 120 0.799999999996 </TableColumn>
+      <TableColumn> 126 0.799999999996 </TableColumn>
       <StartIndex> 0 </StartIndex>
       <DisplayBlackAndWhite> 0 </DisplayBlackAndWhite>
     </PageTable>
     <PageGraphCartesian>
       <ID>106 </ID>
-      <BroadcastTo>2 135 136 </BroadcastTo>
+      <BroadcastTo>3 135 136 159 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>2.57824110242 0.00660093964857 17.5382411024 9.920131121 </Bounds>
+      <Bounds>2.57824110241 0.00660093964857 17.5382411024 9.920131121 </Bounds>
       <SubordinateToID>0</SubordinateToID>
       <SubordinateOffset>0.002685546875 -0.0136917961968</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
@@ -112,7 +112,7 @@
       <GraphShowPoints>0</GraphShowPoints>
       <GraphInterpolate>0</GraphInterpolate>
       <GraphShowTangent>0</GraphShowTangent>
-      <GraphShowLegend>0</GraphShowLegend>
+      <GraphShowLegend>1</GraphShowLegend>
       <GraphShowCursorStatus>1</GraphShowCursorStatus>
       <GraphShowCursorDelta>1</GraphShowCursorDelta>
       <GraphPlotBaseColumnID>102 </GraphPlotBaseColumnID>
@@ -158,11 +158,11 @@
       <ID>135 </ID>
       <BroadcastTo>0 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>14.9867943319 6.57768273693 16.7316832208 8.40101607026 </Bounds>
+      <Bounds>14.9867943318 6.57768273693 16.7316832207 8.40101607026 </Bounds>
       <SubordinateToID>106</SubordinateToID>
       <SubordinateOffset>12.4085532294 6.57108179728</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
-      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>
+      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>
       <AddNewData>0</AddNewData>
       <Locked>0</Locked>
       <AutoCreated>0</AutoCreated>
@@ -199,11 +199,11 @@
       <ID>136 </ID>
       <BroadcastTo>0 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>6.52477430555 1.31868513765 8.21410763888 3.14201847098 </Bounds>
+      <Bounds>6.52477430552 1.31868513765 8.21410763886 3.14201847098 </Bounds>
       <SubordinateToID>106</SubordinateToID>
-      <SubordinateOffset>3.94653320312 1.312084198</SubordinateOffset>
+      <SubordinateOffset>3.94653320311 1.312084198</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
-      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>
+      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>
       <AddNewData>0</AddNewData>
       <Locked>0</Locked>
       <AutoCreated>0</AutoCreated>
@@ -236,6 +236,31 @@
       <ManualCurveFitIncrements>0 </ManualCurveFitIncrements>
       <ManualCurveFitShowRMSE>1</ManualCurveFitShowRMSE>
     </PageHelperDataCurveFit>
+    <PageHelperLegend>
+      <ID>159 </ID>
+      <BroadcastTo>0 </BroadcastTo>
+      <Visible>1</Visible>
+      <Bounds>15.4408538411 1.26783041234 17.0097173393 2.61894152345 </Bounds>
+      <SubordinateToID>106</SubordinateToID>
+      <SubordinateOffset>12.8626127387 1.26122947269</SubordinateOffset>
+      <BackgroundTransparent>0</BackgroundTransparent>
+      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>
+      <AddNewData>0</AddNewData>
+      <Locked>0</Locked>
+      <AutoCreated>0</AutoCreated>
+      <GraphLinkedIDs>0 </GraphLinkedIDs>
+      <YLinkedIDs>0 </YLinkedIDs>
+      <Font>
+        <Size> 12 </Size>
+        <Justification> 0 </Justification>
+        <VerticalJustification> 0 </VerticalJustification>
+        <Styles> 0 0 0 0 0 0 </Styles>
+        <Family> 3 </Family>
+        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
+        <Name></Name>
+        <Rotation>0</Rotation>
+      </Font>
+    </PageHelperLegend>
   </Page>
   <CurrentPageIndex>0</CurrentPageIndex>
   <DataSet>
@@ -756,8 +781,8 @@
       <ID>138 </ID>
       <BroadcastTo>1 106 </BroadcastTo>
       <Visible>1</Visible>
-      <DataObjectName>mx+b</DataObjectName>
-      <DataObjectShortName>mx+b</DataObjectShortName>
+      <DataObjectName>m*x+b</DataObjectName>
+      <DataObjectShortName>Linear</DataObjectShortName>
       <DataObjectColor>0x0 0x0 0x0| 0xffff 0x2e</DataObjectColor>
       <DataObjectDataSource>0</DataObjectDataSource>
       <DataObjectPrecisionDecimal>0</DataObjectPrecisionDecimal>
@@ -780,8 +805,8 @@
       <ID>139 </ID>
       <BroadcastTo>1 106 </BroadcastTo>
       <Visible>1</Visible>
-      <DataObjectName>mx+b 3</DataObjectName>
-      <DataObjectShortName>mx+b</DataObjectShortName>
+      <DataObjectName>m*x+b 2</DataObjectName>
+      <DataObjectShortName>Linear</DataObjectShortName>
       <DataObjectColor>0x0 0x0 0x0| 0xffff 0x2e</DataObjectColor>
       <DataObjectDataSource>0</DataObjectDataSource>
       <DataObjectPrecisionDecimal>0</DataObjectPrecisionDecimal>
