@@ -57,15 +57,66 @@ Zur Bestimmung der Viskosität wurde die folgende Formel benutzt:
 \begin{equation}
 	I_V = \frac{V}{t} = \frac{\pi R^4 \Delta p}{8 \eta l}
 \end{equation}
+Die Druckdifferenz lässt sich mit:
+$$\Delta p = \rho_w hg$$
+bestimmen. Deswegen bei einer Auftragung von $I_V$ gegen $\frac{R^4}{l}$ entspricht die Steigung dem Wert $\frac{ \pi \rho_w hg}{8\eta}$.
+
+Da der Zusammenhang lässt sich in einer Form von $I_V = a + b(\frac{R^4}{l})$ schreiben lässt, wurden die Werte für $I_V$ dann in einer Graph mit dem Programm Logger Pro gegen $\frac{R^4}{l}$ aufgetragen (Siehe Abbildung(2)). Die Werte für $a$, der Achsenabschnitt, $b$, die Steigung, und deren Unsicherheiten wurden mit einem Excel-Dokument berechnet. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Abb2}
+	\caption{Die Volumenstromstärke als Funktion von $\frac{R^4}{l}$ sowie die berechnete Ausgleichsgerade}
+\end{figure}
+
+Die lineare Regression lautet:
+$$ I_V = 1,4\cdot 10^{-8} + 430000 (\frac{R^4}{l})$$
+
+Mit den Unsicherheiten $u_a = 7\cdot 10^{-9}$ m$^3$/s und $u_b = 10000$ s$^{-1}$. 
+
+\begin{tcolorbox}[colback=white]
+	\subsection{Rechenweg}
+	Die Einzelne Messwerte wurden gemittelt und in die Graph aufgetragen. Für die Unsicherheit wurde die Standardunsicherheit, oder die Standardabweichung benutzt:
+	$$s_x = \sqrt{\frac{\sum_{i=1}^{n}(x_i-\bar{x})^2}{n-1}} $$
+	
+	Die Werte für $a$ und $b$ sowie deren Unsicherheiten lassen sich mit den folgenden Formeln bestimmen:
+	$$a = \frac{
+	\sum x_i^2 \sum y_i - \sum x_i \sum x_iy_i
+}{
+n \sum x_i^2 - (\sum x_i)^2
+}$$
+$$ b = \frac{
+n\sum x_iy_i-\sum x_i \sum y_i
+}{
+n \sum x_i^2 - (\sum x_i)^2
+}$$
+
+$$u_a = s\cdot \sqrt{
+\frac{
+\sum x_i^2
+}{
+n\sum x_i^2 - (\sum x_i)^2
+}}$$
+
+$$u_b = s\cdot \sqrt{
+\frac{
+n
+}{
+n\sum x_i^2 - (\sum x_i)^2
+}}$$
+Mit $x = \frac{R^4}{l}$, $y = I_V$ und $s = \sqrt{
+\frac{1}{n-2}\sum [y_i-(a+bx_i)]^2}$
+\end{tcolorbox}
+
+Mit der Steigung kann der Wert für $\eta$ berechnet werden. 
+$$\eta = \frac{\pi \rho_w hg}{8b}$$
+$$ = 0,00099938 \textrm{Pa s} $$
+
 
 \section{Diskussion der Ergebnisse}
 
 \section{Literatur}
-	
 
-	
-	
-	
 	
 	
 	
