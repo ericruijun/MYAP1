@@ -84,26 +84,54 @@ Dieser Prozesse wurde für unterschiedliche Materialien, Ausrichtungen des Stabs
 
 
 \section{Auswertung und Fehleranalyse}
+Die Durchschnittlichen Abmessungen der drei Stäbe und deren Unsicherheiten sind:
+
+\begin{table} [h]
+	\begin{tabular*}{0.99\textwidth}{@{\extracolsep{\fill}}c|cccccc}
+		\toprule
+		Material & Seite 1 & $u_\textrm{Seite 1}$ & Seite 2 & $u_\textrm{Seite 2}$  \\
+		& mm & mm & mm & mm & \\
+		\bottomrule
+		Stahl & 5,916 & 0,005 & 9,910 & 0,007 \\
+		Aluminium & 5,948 & 0,007 & 9,914 & 0,008 \\
+		Messing & 5,914 & 0,005 & 9,902 & 0,004 \\
+		\bottomrule
+	\end{tabular*}
+	\caption{Die Durchschnittlichen Abmessungen der Stäbe}
+\end{table}
+
+\begin{tcolorbox}[colback=white]
+	\subsection{Rechenweg}
+	Zur Berechnung der Mittelwerte wurde die folgende Formel verwendet:
+	$$\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i$$
+	Für die Unsicherheiten wurden die Standardabweichung benutzt, nämlich:
+	$$s_x = \sqrt{\frac{\sum_{i=1}^{n}(x_i-\bar{x})^2}{n-1}} $$
+	
+\end{tcolorbox}
+
 Für jede Messreihe wurden die jeweiligen Mittelwerte in einer Graph aufgetragen (Siehe Abbildungen 1 bis 3). 
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{Abb2}
-	\caption{ayy lmao}
+	\caption{Datenpunkte und Ausgleichsgeraden für verschiedene Materialien}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{Abb3}
-	\caption{ayy lmao}
+	\caption{Datenpunkte und Ausgleichsgeraden für unterschiedliche Ausrichtungen des Stabprofils}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{Abb4}
-	\caption{ayy lmao}
+	\caption{Datenpunkte und Ausgleichsgeraden für verschiedene Abstände zwischen den Schneiden}
 \end{figure}
 \FloatBarrier
+
+	Für die Unsicherheiten der einzelnen Punkte wurde die Standardunsicherheit wie oben benutzt, aber wenn es keine Abweichungen zwischen beiden Messwerten gab, wurde der Messfehler durch einen Faktor $\sqrt{n}$ geteilt. 
+
 Mit einem Excel-Dokument wurde die lineare Regressionen und deren Unsicherheit berechnet. Die lineare Zusammenhänge lassen sich in der Form: 
 $$ s = a + bm $$ schreiben. Die einzelne Werte für $a$ und $b$ für jede Messreihe sind in Tabelle 1 bis 3 zu sehen (Achtung, dass in diesem Kontext $b$ nicht die Breite des Stabes ist). 
 
@@ -152,16 +180,32 @@ $$ s = a + bm $$ schreiben. Die einzelne Werte für $a$ und $b$ für jede Messre
 Mit Formel (2) und $F = mg$ kann man leicht sehen, dass die Steigung $b$ dem Wert $\frac{1}{E}\frac{gl^3}{4h^3b}$ Entspricht. Dadurch lässt sich der Wert von $E$ berechnen:
 $$ E = \frac{gl^3}{4h^3bS}$$
 In dieser Formel ist $S$ die Steigung, um Verwechslung mit dem Buchstabe für Breite zu vermeiden. Die Berechnete Werte von $E$ und deren Unsicherheiten für Messreihe 1 sind:
-$$E_\textrm{Stahl} = (21300 \pm 900) \textrm{N/mm}^2$$
-$$E_\textrm{Al} = (68300 \pm 300) \textrm{N/mm}^2 $$
+$$E_\textrm{Stahl} = (21000 \pm 1000) \textrm{N/mm}^2$$
+$$E_\textrm{Al} = (68300 \pm 500) \textrm{N/mm}^2 $$
 $$E_\textrm{Messing} = (104000 \pm 8000) \textrm{N/mm}^2 $$
 Für Messreihe 2:
-$$E_\textrm{Messing-Vert} = (91600 \pm 600) \textrm{N/mm}^2 $$
+$$E_\textrm{Messing-Vert} = (91600 \pm 700) \textrm{N/mm}^2 $$
 und Für Messreihe 3:
 $$E_\textrm{Al}' = (69000 \pm 1000) \textrm{N/mm}^2 $$
-\subsection{Nachgiebigkeit}
 
+\begin{tcolorbox}[colback=white]
+	\subsection{Rechenweg}
+	Zur Berechnung der Unsicherheiten wurde die vereinfachte gauß'sche Fehlerfortpflanzung für Produkte und Quotienten benutzt:
+	$$
+	\left 
+	\vert \frac{u_E}{E} \right \vert 
+	 = \sqrt{(3\frac{u_l}{l})^2+(\frac{u_h}{h})^2+(3\frac{u_b}{b})^2+(\frac{u_S}{S})^2} $$
+	
+	
+\end{tcolorbox}
+\subsection{Biegsamkeit}
+Die Einzelergebnisse für die Biegsamkeit, $\frac{ds}{dm} = S$, und deren Unsicherheiten sind in Abbildung (5) zu sehen:
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\linewidth]{Abb5}
+	\caption{Die gemessenen Biegsamkeit für jede Messreihe}
+\end{figure}
 
 
 \section{Diskussion der Ergebnisse}

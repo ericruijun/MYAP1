@@ -1,0 +1,6 @@
+\babel@toc {german}{}
+\contentsline {section}{\numberline {1}Aufbau}{1}{section.1}
+\contentsline {section}{\numberline {2}Durchf\IeC {\"u}hrung}{1}{section.2}
+\contentsline {section}{\numberline {3}Auswertung und Fehleranalyse}{1}{section.3}
+\contentsline {section}{\numberline {4}Diskussion der Ergebnisse}{1}{section.4}
+\contentsline {section}{\numberline {5}Literatur}{1}{section.5}
