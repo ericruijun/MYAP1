@@ -1,0 +1,23 @@
+\babel@toc {german}{}
+\contentsline {section}{\numberline {1}Einleitung}{2}{section.1}
+\contentsline {section}{\numberline {2}Ziel des Versuchs}{2}{section.2}
+\contentsline {section}{\numberline {3}Aufbau}{2}{section.3}
+\contentsline {section}{\numberline {4}Versuchsdurchf\IeC {\"u}hrung}{4}{section.4}
+\contentsline {section}{\numberline {5}Auswertung und Fehleranalyse}{4}{section.5}
+\contentsline {subsection}{\numberline {5.1}1. Versuchsteil : Bestimmung der Dichte eines regul\IeC {\"a}ren K\IeC {\"o}rpers}{4}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Bestimmung mit einer Jolly'schen Federwaage}{4}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Beispielrechnungen (mit ersten Datenpunkten)}{6}{subsubsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.3}Beispielrechnungen}{7}{subsubsection.5.1.3}
+\contentsline {subsubsection}{\numberline {5.1.4}Beispielrechnungen}{7}{subsubsection.5.1.4}
+\contentsline {subsubsection}{\numberline {5.1.5}Bestimmung durch Volumen- und Massemessungen}{8}{subsubsection.5.1.5}
+\contentsline {subsubsection}{\numberline {5.1.6}Beispielrechnungen}{9}{subsubsection.5.1.6}
+\contentsline {subsection}{\numberline {5.2}2. Teil: Bestimmung der Dichte einer unbekannten Fl\IeC {\"u}ssigkeit}{10}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Beispielrechnung}{10}{subsubsection.5.2.1}
+\contentsline {subsection}{\numberline {5.3}2. Versuchsteil: Bestimmung der Oberfl\IeC {\"a}chenspannung}{12}{subsection.5.3}
+\contentsline {section}{\numberline {6}Diskussion der Ergebnisse}{14}{section.6}
+\contentsline {subsection}{\numberline {6.1}1. Versuchsteil}{14}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}2. Versuchsteil}{14}{subsection.6.2}
+\contentsline {section}{\numberline {7}Anhang: Rohe Daten}{16}{section.7}
+\contentsline {subsection}{\numberline {7.1}1. Versuchsteil}{16}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}2. Versuchsteil}{16}{subsection.7.2}
+\contentsline {section}{\numberline {8}Literatur}{17}{section.8}
