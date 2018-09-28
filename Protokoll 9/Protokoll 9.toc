@@ -3,5 +3,6 @@
 \contentsline {section}{\numberline {2}Durchf\IeC {\"u}hrung}{1}{section.2}
 \contentsline {section}{\numberline {3}Auswertung und Fehleranalyse}{1}{section.3}
 \contentsline {subsection}{\numberline {3.1}Rechenweg}{3}{subsection.3.1}
-\contentsline {section}{\numberline {4}Diskussion der Ergebnisse}{3}{section.4}
-\contentsline {section}{\numberline {5}Literatur}{3}{section.5}
+\contentsline {subsection}{\numberline {3.2}Rechenweg}{3}{subsection.3.2}
+\contentsline {section}{\numberline {4}Diskussion der Ergebnisse}{4}{section.4}
+\contentsline {section}{\numberline {5}Literatur}{4}{section.5}
