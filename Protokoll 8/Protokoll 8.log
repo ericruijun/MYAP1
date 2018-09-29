@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.21)  28 SEP 2018 13:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.21)  29 SEP 2018 15:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -775,11 +775,11 @@ Package pdftex.def Info: Abb3.png  used on input line 122.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Abb4.png, id=76, 532.8708pt x 346.1733pt>
+<Abb4.png, id=76, 522.0303pt x 288.8391pt>
 File: Abb4.png Graphic file (type png)
 <use Abb4.png>
 Package pdftex.def Info: Abb4.png  used on input line 128.
-(pdftex.def)             Requested size: 360.0pt x 233.87874pt.
+(pdftex.def)             Requested size: 360.0pt x 199.19781pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -926,7 +926,7 @@ ts/type1/public/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
 blic/lm/lmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr8
 .pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr
 /local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on "Protokoll 8.pdf" (8 pages, 765442 bytes).
+Output written on "Protokoll 8.pdf" (8 pages, 750590 bytes).
 PDF statistics:
  171 PDF objects out of 1000 (max. 8388607)
  140 compressed objects within 2 object streams
