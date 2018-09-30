@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.21)  30 SEP 2018 13:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.21)  30 SEP 2018 17:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -758,7 +758,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 104.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 104.
-<Abb2.png, id=78, 535.7616pt x 352.6776pt>
+<Abb2.png, id=84, 535.7616pt x 352.6776pt>
 File: Abb2.png Graphic file (type png)
 <use Abb2.png>
 Package pdftex.def Info: Abb2.png  used on input line 116.
@@ -767,7 +767,7 @@ Package pdftex.def Info: Abb2.png  used on input line 116.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Abb3.png, id=80, 524.6802pt x 350.2686pt>
+<Abb3.png, id=86, 524.6802pt x 350.2686pt>
 File: Abb3.png Graphic file (type png)
 <use Abb3.png>
 Package pdftex.def Info: Abb3.png  used on input line 122.
@@ -775,7 +775,7 @@ Package pdftex.def Info: Abb3.png  used on input line 122.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Abb4.png, id=81, 522.0303pt x 288.8391pt>
+<Abb4.png, id=87, 522.0303pt x 288.8391pt>
 File: Abb4.png Graphic file (type png)
 <use Abb4.png>
 Package pdftex.def Info: Abb4.png  used on input line 128.
@@ -849,7 +849,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 201.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 201.
-<Abb5.png, id=112, 524.1984pt x 343.0416pt>
+<Abb5.png, id=118, 524.1984pt x 343.0416pt>
 File: Abb5.png Graphic file (type png)
 <use Abb5.png>
 Package pdftex.def Info: Abb5.png  used on input line 206.
@@ -896,38 +896,62 @@ Package babel Info: Redefining german shorthand "|
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 227.
  [8 <./Abb5.png>]
+Overfull \hbox (5.90172pt too wide) in paragraph at lines 242--242
+[]\T1/lmr/bx/n/12 Systematische und Sta-ti-sti-sche Feh-ler und Ver-bes-se-rung
+s-
+ []
+
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 244.
+(babel)             in language  on input line 242.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 244.
+(babel)             in language  on input line 242.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 244.
+(babel)             in language  on input line 242.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 253.
+(babel)             in language  on input line 249.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 253.
+(babel)             in language  on input line 249.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 253.
+(babel)             in language  on input line 249.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 253.
+(babel)             in language  on input line 249.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 253.
+(babel)             in language  on input line 249.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 253.
- [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
+(babel)             in language  on input line 249.
+[9]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 249.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 249.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 249.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 258.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 258.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 258.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 258.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 258.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 258.
+ [10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
  (./Protokoll 8.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 253.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 253.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 258.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
 Package rerunfilecheck Info: File `"Protokoll 8".out' has not changed.
-(rerunfilecheck)             Checksum: 8FC04B9A48D8151388131577C23C139E;595.
+(rerunfilecheck)             Checksum: F80399C0767735B6A8F56EFD9D1D9D80;713.
  ) 
 Here is how much of TeX's memory you used:
- 16020 strings out of 492649
- 296455 string characters out of 6129622
+ 16023 strings out of 492649
+ 296492 string characters out of 6129622
  375657 words of memory out of 5000000
- 19585 multiletter control sequences out of 15000+600000
+ 19586 multiletter control sequences out of 15000+600000
  42687 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,12n,73p,816b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -946,10 +970,10 @@ blic/lm/lmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr8
 .pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr
 /local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texl
 ive/2018/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on "Protokoll 8.pdf" (9 pages, 764312 bytes).
+Output written on "Protokoll 8.pdf" (10 pages, 765682 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 197 PDF objects out of 1000 (max. 8388607)
+ 163 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
