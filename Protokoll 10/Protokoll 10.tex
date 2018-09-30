@@ -97,28 +97,189 @@ Die Werte für $\frac{1}{b}$ wurden gegen $\frac{1}{g}$ aufgetragen. Für jede M
 
 \begin{figure}
 	\centering
-	\includegraphics[width=\linewidth]{Abb3}
-	\caption{ Die aus der Abbildungsgleichung Erwarteten Lineare Verläufe}
+	\includegraphics[scale=0.5]{Abb3}
+	\caption{ Die aus der Abbildungsgleichung Erwarteten Linearen Verläufe}
 \end{figure} 
 
 \begin{tcolorbox}[colback=white]
 \subsubsection{Rechenweg}
-Die Unsicherheiten der einzelnen Punkten wurde mit der Vereinfachten gaußschen Fehlerfortpflanzung für Produkte und Quotienten bestimmt.
-$$ \Delta(\frac{1}{g}) = \frac{\Delta g}{g} \cdot 
+Zuerst wurde die Unsicherheiten von $g$ und $b$ mit der vereinfachten gauß'schen Fehlerfortpflanzung für Summe berechnet. Zum Beispiel:
+$$ \Delta g = \sqrt{(\Delta x_\textrm{Dia})^2 + (\Delta x_\textrm{Groß})^2}$$
+, da $g = x_\textrm{Groß} - x_\textrm{Dia}$, wobei $x_\textrm{Dia}$ die Position des Dias und $x_\textrm{Groß}$ die Position der Linse, wo eine vergrößernde Abbildung möglich ist. 
+
+Die Unsicherheiten der einzelnen Punkten auf der Graph wurde mit der vereinfachten gaußschen Fehlerfortpflanzung für Produkte und Quotienten bestimmt.
+$$ \Delta\left(\frac{1}{g}\right) = \frac{\Delta g}{g} \cdot \frac{1}{g}$$
+ebenfalls für die $\frac{1}{b}$ Werte. 
 	
-	
+Für die theoretischen Verläufe wurde Gleichung (1) nach $\frac{1}{b}$ umgeformt und die gesamten Brennweiten mit Gleichung (2) Berechnet. 
 	
 	
 \end{tcolorbox}
 
+\subsection{2. Versuchsteil: Das Bessel-Verfahren}
+Gemäß Gleichung (3) wurden die Werte für $s$ und $e$ und deren Unsicherheiten berechnet (Siehe Anhang 1). Die Unsicherheiten wurde wie in dem ersten Versuchsteil mit der gauß'sche Fehlerfortpflanzung für Summe berechnet. Danach wurden die einzelne Werte für $f$ für jede Messreihe berechnet (Siehe Anhang 2). 
+
+Die Unsicherheiten der $f$ Werte wurden mit der gauß'schen Fehlerfortpflanzung berechnet. Mit 
+$$ f = \frac{s^2-e^2}{4s}$$
+sind:
+$$ \frac{\partial f}{\partial{s}} = \frac{s^2+e^2}{4s^2}$$
+$$\frac{\partial f}{\partial{e}} = -\frac{e}{2s}$$
+Die Unsicherheit von $f$ ist deshalb:
+$$\Delta f = \sqrt{(\frac{\partial f}{\partial{s}}\Delta s)^2 + (\frac{\partial f}{\partial{e}} \Delta e)^2}$$
+
+Die Mittelwerte der $f$ für jede Linse/Linsensystem und deren Standardunsicherheiten sind dann:
+
+
+ 
 
 
 
+\begin{table} [h]
+	\centering
+	\begin{tabular*}{0.50\textwidth}{@{\extracolsep{\fill}}c|cccccc}
+		\toprule
+		Brennweite & $f$ & $u_f$   \\
+		mm & cm & cm \\
+		\bottomrule
+		80 & 7,93 & 0,14 \\
+		80 \& 150 & 5,63 & 0,07 \\
+		80 \& -200 & 11,59 & 0,05 \\
+		\bottomrule
+	\end{tabular*}
+	\caption{Die Berechneten $f$ für die Linsen und Linsensysteme}
+\end{table}
 
+\subsection{3. Versuchsteil: Das Abbe-Verfahren}
+Zuerst wurden die Werte für $\beta$ ausgerechnet (Siehe Tabelle 1).
+
+
+\begin{table}[h]
+	\centering
+	\begin{tabular*}{0.50\textwidth}{@{\extracolsep{\fill}}cc|ccccc}
+		\toprule
+		$g'$ & $b'$ & $\beta$ & $\Delta \beta$   \\
+		cm & cm& &\\
+		18,5&47,9&3,33&0,05\\
+		20,8&28,6&1,71&0,05\\
+		19,7&25,0&2,19&0,05\\
+		17,8&47,2&3,71&0,05\\
+		15,3&74,7&4,71&0,14\\
+		16,1&90,3&6,71&0,14\\
+		16,0&101,8&7,86&0,14\\
+		17,3&54,6&3,79&0,07\\
+		18,3&41,7&2,71&0,07\\
+		18,4&39,0&2,57&0,14\\
+		\bottomrule
+	\end{tabular*}
+	\caption{Die gemessenen Werte für $g'$, $b'$ und $\beta$ für ein Linsensystem mit $f_1 = 80mm$ und $f_2 = -200mm$}
+\end{table}
+
+
+
+\begin{table}[h]
+	\centering
+	\begin{tabular*}{0.50\textwidth}{@{\extracolsep{\fill}}cc|ccccc}
+		\toprule
+		$g'$ & $b'$ & $\beta$ & $\Delta \beta$   \\
+		cm & cm& &\\
+		13,5&58,6&2,86&0,14\\
+		13,9&51,5&3,21&0,07\\
+		14,6&44,3&2,64&0,07\\
+		21,4&25,3&1,00&0,07\\
+		12,4&93,6&6,86&0,14\\
+		12,4&84,5&6,14&0,14\\
+		12,0&108,6&8,14&0,14\\
+		12,9&76,0&8,00&0,14\\
+		12,8&68,6&4,64&0,07\\
+		14,3&48,6&3,00&0,07\\
+		\bottomrule
+	\end{tabular*}
+	\caption{Die gemessenen Werte für $g'$, $b'$ und $\beta$ für ein Linsensystem mit $f_1 = -200mm$ und $f_2 = 80mm$}
+\end{table}
+
+\FloatBarrier
+Danach wurden $g'$ und $b'$ jeweils gegen $(1+\frac{1}{\beta})$ und $(1+\beta)$ aufgetragen (Siehe Anhang 3, 4). 
+Dadurch lassen sich die Werte für $f_1$, $f_2$, $h_1$ und $h_2$ für beide Linsensysteme bestimmen. 
+Das System mit zuerst einer Linse mit $f=80mm$ und danach einer mit $f=-200mm$ hat die Folgenden Werte:
+$$f_1 = 11\textrm{cm    } f_2 = 12\textrm{cm}$$
+$$ h_1 = 3\textrm{cm    } h_2 = 8 \textrm{cm}$$
+
+Und für das System mit umgekehrter Reihenfolge der Linsen:
+$$f_1 = 3\textrm{cm    } f_2 = 10 \textrm{cm}$$
+$$ h_1 = 10\textrm{cm    } h_2 = 18 \textrm{cm}$$
+
+
+\subsection{4. Versuchsteil: Autokollimationsverfahren und Dispersion}
 \section{Diskussion der Ergebnisse}
 
 \section{Anhang}
 
 
+\begin{table}[h]
+	\centering
+	\begin{tabular*}{0.50\textwidth}{@{\extracolsep{\fill}}cc|ccccc}
+		\toprule
+		Brennweite & Messreihe & $s$ & $e$   \\
+		mm &  & cm & cm  \\
+		\bottomrule
+		80 & 1 & 57,7 & 39,3 \\
+		& 2 & 72,4 & 54,4 \\
+		& 3 & 88,7 & 70,8 \\
+		& 4 & 106,4 & 89,2 \\
+		& 5 & 67,7 & 48,9 \\
+		80 \& 150 & 1 & 67,7 & 55,3 \\
+		& 2 & 83,9 & 71,8 \\
+		& 3 & 34,1 & 19,5 \\
+		& 4 & 24,0 & 5,9 \\
+		& 5 & 39,0 & 25,6 \\
+		80 \& -200 & 1 & 95,7 & 68,6 \\
+		& 2 & 74,8 & 46,2 \\
+		& 3 & 120,7 & 94,9 \\
+		& 4 & 59,6 & 28,2 \\
+		& 5 & 51,3 & 15,5 \\
+		\bottomrule
+	\end{tabular*}
+	\caption{Die Werte für $s$ und $e$ für alle Messreihen}
+\end{table}
+
+
+\begin{table}[h]
+	\centering
+	\begin{tabular*}{0.50\textwidth}{@{\extracolsep{\fill}}cc|ccccc}
+		\toprule
+		Brennweite & Messreihe & $s$ & $e$   \\
+		mm &  & cm & cm  \\
+		\bottomrule
+		80 & 1 & 7,73 & 0,14 \\
+		& 2 & 7,88 & 0,15 \\
+		& 3 & 8,05 & 0,16 \\
+		& 4 & 7,90 & 0,17 \\
+		& 5 & 8,09 & 0,15 \\
+		80 \& 150 & 1 & 5,63 & 0,17 \\
+		& 2 & 5,61 & 0,17 \\
+		& 3 & 5,73 & 0,12 \\
+		& 4 & 5,64 & 0,08 \\
+		& 5 & 5,55 & 0,14 \\
+		80 \& -200 & 1 & 11,63 &0,15 \\
+		& 2 & 11,56 & 0,13 \\
+		& 3 & 11,52 & 0,16 \\
+		& 4 & 11,56 & 0,11 \\
+		& 5 & 51,3 & 0,09 \\
+		\bottomrule
+	\end{tabular*}
+	\caption{Berechnete Werte für $f$ und deren Unsicherheiten}
+\end{table}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\linewidth]{Abb4}
+	\caption{Graph von $g'$ gegen $1+\frac{1}{\beta}$ für beide Linsensysteme}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\linewidth]{Abb5}
+	\caption{Graph von $b'$ gegen $1+\beta$ für beide Linsensysteme}
+\end{figure}
 
 \end{document}

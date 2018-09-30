@@ -7,4 +7,5 @@
 \contentsline {subsection}{\numberline {4.2}Rechenweg}{7}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Biegsamkeit}{7}{subsection.4.3}
 \contentsline {section}{\numberline {5}Diskussion der Ergebnisse}{8}{section.5}
-\contentsline {section}{\numberline {6}Literatur}{8}{section.6}
+\contentsline {subsection}{\numberline {5.1}Vergleich mit anderen Messmethoden und den Literaturwerten}{8}{subsection.5.1}
+\contentsline {section}{\numberline {6}Literatur}{9}{section.6}

@@ -55,7 +55,7 @@ Wird ein Körper von einer äußeren Kraft belastet, ändert sich seine Länge. 
 \end{equation}
 Wobei $\sigma = \frac{F}{A}$ die Zugspannung ist. Diese Gleichung ist auch als das Hook'sche Gesetz bekannt.
 
-Wird ein Horizontaler Stab von einer Kraft nach oben belastet, biegt sich der Stab. Die obere und untere Hälfte werden jeweils gestaucht und gedehnt und von den resultierenden inneren entgegengesetzten Spannungen entsteht ein Drehmoment. Da dieses Drehmoment von der Durchbiegung abhängt, kann die Elastizitätsmodul von der Durchbiegung, oder Biegungpfeil bestimmt werden, nämlich mit der folgenden Formel:
+Wird ein Horizontaler Stab von einer Kraft nach oben belastet, biegt sich der Stab. Die obere und untere Hälfte werden jeweils gestaucht und gedehnt und von den resultierenden inneren entgegengesetzten Spannungen entsteht ein Drehmoment. Da dieses Drehmoment von der Durchbiegung abhängt, kann der Elastizitätsmodul daraus bestimmt werden, nämlich mit der folgenden Formel:
 \begin{equation}
 s = \frac{1}{E}\frac{l^3}{4h^3b}F
 \end{equation}
@@ -209,6 +209,37 @@ Die Einzelergebnisse für die Biegsamkeit, $\frac{ds}{dm} = S$, und deren Unsich
 
 
 \section{Diskussion der Ergebnisse}
+Der berechnete Elastizitätsmodul von Stahl ist:
+$$E_\textrm{Stahl} = (21000 \pm 1000)\textrm{N/mm}^2$$
+und der von Aluminium für beide Messreihen:
+$$E_\textrm{Al} = (68300 \pm 500)\textrm{N/mm}^2$$
+$$E'_\textrm{Al} = (69000 \pm 1000)\textrm{N/mm}^2$$
+und der von Messing für beide Messreihen:
+$$E_\textrm{Messing} = (104000 \pm 8000)\textrm{N/mm}^2$$
+$$E_\textrm{Messing-Vert} = (91600 \pm 700)\textrm{N/mm}^2$$
+
+\subsection{Vergleich mit anderen Messmethoden und den Literaturwerten}
+Um zu sehen, ob die beide Ergebnisse für den Elastizitätsmodul von Aluminium wurde ihre Differenz in Einheiten der kombinierten Standardunsicherheit berechnet, nämlich:
+$$ t_\textrm{Al} = \frac{|E_\textrm{Al}-E'_\textrm{Al}|}{
+\sqrt{u_{E'_\textrm{Al}}^2+u_{E'_\textrm{Al}}^2}}$$
+$$ t \approx 0,62 $$
+Da $t$ kleiner als 2 ist, sind beide Ergebnisse miteinander verträglich. Diese Verträglichkeit ist auch signifikant, da beide Unsicherheiten kleiner als 2\% der Werte selbst waren. 
+
+Dasselbe Verfahren wurde auch für Messing durchgeführt.
+$$ t_\textrm{Messing} \approx 1,515 $$
+, was auch impliziert, dass die beiden Werte verträglich sind. Da $E_\textrm{Messing}$ eine relative große Unsicherheit hat (7\%), ist dieses Ergebnis aber von kleinerer Bedeutung. 
+
+Den Versuchsanleitungen zufolge sind die Literaturwerte der Elastizitätsmodule:
+$$E_\textrm{Al} = (69 ... 72,5) \textrm{N/mm}^2$$
+$$E_\textrm{Stahl} = (195 ... 210) \textrm{N/mm}^2$$
+$$E_\textrm{Messing} = (90 ... 95) \textrm{N/mm}^2$$
+Es kann sofort gesehen werden, dass $E_\textrm{Stahl}$, $E'_\textrm{Al}$ und $E_\textrm{Messing-Vert}$ innerhalb der Rahmen der Literaturwerten liegen. Deswegen sind diese Ergebnisse und die Literaturwerte miteinander verträglich. 
+
+Falls der gemessene Wert außerhalb der Rahmen des Literaturwertes lag, wurde die Differenz in Einheiten der Standardunsicherheit berechnet, um zu sehen, ob der gemessene Wert und der Literaturwert miteinander verträglich sind. 
+$$t_{E_\textrm{Al}} = 1,4$$
+$$t_{E_\textrm{Messing}} = 1,125$$
+Da diese Werte kleiner als 2 sind, sind alle gemessenen Werte und die Literaturwerte miteinander verträglich. 
+$$t_{E_{4_{2}}}$$
 
 \section{Literatur}
 	
