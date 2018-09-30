@@ -1,9 +1,9 @@
 \babel@toc {german}{}
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
 \contentsline {section}{\numberline {2}Aufbau}{2}{section.2}
-\contentsline {section}{\numberline {3}Versuchsdurchf\IeC {\"u}hrung}{2}{section.3}
+\contentsline {section}{\numberline {3}Versuchsdurchf\IeC {\"u}hrung}{3}{section.3}
 \contentsline {section}{\numberline {4}Auswertung und Fehleranalyse}{3}{section.4}
-\contentsline {subsection}{\numberline {4.1}Rechenweg}{3}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.1}Rechenweg}{4}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Rechenweg}{7}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Biegsamkeit}{7}{subsection.4.3}
 \contentsline {section}{\numberline {5}Diskussion der Ergebnisse}{8}{section.5}
