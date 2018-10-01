@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.21)  30 SEP 2018 17:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.21)  1 OCT 2018 15:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -799,7 +799,7 @@ Package rerunfilecheck Info: File `"Protokoll 9".out' has not changed.
 Here is how much of TeX's memory you used:
  15969 strings out of 492649
  295804 string characters out of 6129622
- 373657 words of memory out of 5000000
+ 374657 words of memory out of 5000000
  19556 multiletter control sequences out of 15000+600000
  42687 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -819,7 +819,7 @@ blic/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr
 6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/
 local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texl
 ive/2018/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on "Protokoll 9.pdf" (4 pages, 278922 bytes).
+Output written on "Protokoll 9.pdf" (4 pages, 278828 bytes).
 PDF statistics:
  129 PDF objects out of 1000 (max. 8388607)
  107 compressed objects within 2 object streams

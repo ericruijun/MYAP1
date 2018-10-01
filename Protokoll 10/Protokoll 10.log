@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.21)  30 SEP 2018 10:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.21)  1 OCT 2018 15:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -363,6 +363,48 @@ Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 \tcb@out=\write4
 \tcb@record@out=\write5
 )
+(/usr/local/texlive/2018/texmf-dist/tex/latex/feyn/feyn.sty
+Package: feyn 2017/11/03 0.4.1
+
+Package: `feyn' 0.4.1 <2017/11/03>
+\symfeynman=\mathgroup4
+\symtextfeynman=\mathgroup5
+\symfeynmanextended=\mathgroup6
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 103.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 103.
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 103
+.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 103
+.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 103.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 103.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 103.
+\feyn@mfbasemodule=\dimen142
+\feyn@module=\dimen143
+\feyn@maxis=\dimen144
+\feyn@mfextendedmodule=\dimen145
+\feyn@nudge=\dimen146
+)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2018/02/14 3.18 The Babel package
 
@@ -380,7 +422,7 @@ hy)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count102
-\U@D=\dimen142
+\U@D=\dimen147
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@dirlevel=\count103
@@ -398,11 +440,11 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks30
-\ex@=\dimen143
+\ex@=\dimen148
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen144
+\pmbraise@=\dimen149
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
@@ -419,7 +461,7 @@ LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box41
 \strutbox@=\box42
-\big@size=\dimen145
+\big@size=\dimen150
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \macc@depth=\count109
@@ -432,12 +474,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \column@=\count114
 \maxfields@=\count115
 \andhelp@=\toks32
-\eqnshift@=\dimen146
-\alignsep@=\dimen147
-\tagshift@=\dimen148
-\tagwidth@=\dimen149
-\totwidth@=\dimen150
-\lineht@=\dimen151
+\eqnshift@=\dimen151
+\alignsep@=\dimen152
+\tagshift@=\dimen153
+\tagwidth@=\dimen154
+\totwidth@=\dimen155
+\lineht@=\dimen156
 \@envbody=\toks33
 \multlinegap=\skip44
 \multlinetaggap=\skip45
@@ -450,23 +492,23 @@ Package: placeins 2005/04/18  v 2.2
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen152
-\lightrulewidth=\dimen153
-\cmidrulewidth=\dimen154
-\belowrulesep=\dimen155
-\belowbottomsep=\dimen156
-\aboverulesep=\dimen157
-\abovetopsep=\dimen158
-\cmidrulesep=\dimen159
-\cmidrulekern=\dimen160
-\defaultaddspace=\dimen161
+\heavyrulewidth=\dimen157
+\lightrulewidth=\dimen158
+\cmidrulewidth=\dimen159
+\belowrulesep=\dimen160
+\belowbottomsep=\dimen161
+\aboverulesep=\dimen162
+\abovetopsep=\dimen163
+\cmidrulesep=\dimen164
+\cmidrulekern=\dimen165
+\defaultaddspace=\dimen166
 \@cmidla=\count116
 \@cmidlb=\count117
-\@aboverulesep=\dimen162
-\@belowrulesep=\dimen163
+\@aboverulesep=\dimen167
+\@belowrulesep=\dimen168
 \@thisruleclass=\count118
 \@lastruleclass=\count119
-\@thisrulewidth=\dimen164
+\@thisrulewidth=\dimen169
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
@@ -523,7 +565,7 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen165
+\@linkdim=\dimen170
 \Hy@linkcounter=\count120
 \Hy@pagecounter=\count121
 
@@ -551,10 +593,10 @@ Package hyperref Info: Bookmarks ON on input line 4762.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5115.
-\XeTeXLinkMargin=\dimen166
+\XeTeXLinkMargin=\dimen171
 \Fld@menulength=\count124
-\Field@Width=\dimen167
-\Fld@charsize=\dimen168
+\Field@Width=\dimen172
+\Fld@charsize=\dimen173
 Package hyperref Info: Hyper figures OFF on input line 6369.
 Package hyperref Info: Link nesting OFF on input line 6374.
 Package hyperref Info: Hyper index ON on input line 6377.
@@ -608,13 +650,13 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count130
-\scratchdimen=\dimen169
+\scratchdimen=\dimen174
 \scratchbox=\box43
 \nofMPsegments=\count131
 \nofMParguments=\count132
 \everyMPshowfont=\toks35
 \MPscratchCnt=\count133
-\MPscratchDim=\dimen170
+\MPscratchDim=\dimen175
 \MPnumerator=\count134
 \makeMPintoPDFobject=\count135
 \everyMPtoPDFconversion=\toks36
@@ -654,34 +696,7 @@ LaTeX Info: Redefining \nameref on input line 33.
 \@outlinefile=\write6
 \openout6 = `"Protokoll 10.out"'.
 
- (./Protokoll 10.toc
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 5.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 5.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 5.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 5.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 5.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 5.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 5.
-)
+ (./Protokoll 10.toc)
 \tf@toc=\write7
 \openout7 = `"Protokoll 10.toc"'.
 
@@ -724,7 +739,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 90.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 90.
-<Abb2.png, id=64, 526.8483pt x 338.2236pt>
+<Abb2.png, id=69, 526.8483pt x 338.2236pt>
 File: Abb2.png Graphic file (type png)
 <use Abb2.png>
 Package pdftex.def Info: Abb2.png  used on input line 94.
@@ -742,7 +757,7 @@ Package babel Info: Redefining german shorthand "|
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 97.
  [2]
-<Abb3.png, id=79, 611.28375pt x 529.98pt>
+<Abb3.png, id=84, 611.28375pt x 529.98pt>
 File: Abb3.png Graphic file (type png)
 <use Abb3.png>
 Package pdftex.def Info: Abb3.png  used on input line 100.
@@ -832,110 +847,116 @@ Package babel Info: Redefining german shorthand "|
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 212.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 213.
+(babel)             in language  on input line 247.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 213.
+(babel)             in language  on input line 247.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 213.
+(babel)             in language  on input line 247.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 247.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 247.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 247.
+ [7
 
-Overfull \hbox (6.50945pt too wide) in alignment at lines 220--241
+]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 249.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 249.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 249.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 251.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 251.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 251.
+
+Overfull \hbox (6.50945pt too wide) in alignment at lines 256--277
 [] [] [] [] [][][]
  []
 
 
-Overfull \hbox (6.50945pt too wide) in alignment at lines 248--269
+Overfull \hbox (6.50945pt too wide) in alignment at lines 284--305
 [] [] [] [] [][][]
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Abb4.png, id=104, 515.7669pt x 363.5181pt>
+<Abb4.png, id=116, 515.7669pt x 363.5181pt>
 File: Abb4.png Graphic file (type png)
 <use Abb4.png>
-Package pdftex.def Info: Abb4.png  used on input line 275.
+Package pdftex.def Info: Abb4.png  used on input line 311.
 (pdftex.def)             Requested size: 360.0pt x 253.7343pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Abb5.png, id=105, 523.4757pt x 358.4592pt>
+<Abb5.png, id=117, 523.4757pt x 358.4592pt>
 File: Abb5.png Graphic file (type png)
 <use Abb5.png>
-Package pdftex.def Info: Abb5.png  used on input line 281.
+Package pdftex.def Info: Abb5.png  used on input line 317.
 (pdftex.def)             Requested size: 360.0pt x 246.51666pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 285.
+(babel)             in language  on input line 321.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 285.
+(babel)             in language  on input line 321.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 285.
+(babel)             in language  on input line 321.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 285.
+(babel)             in language  on input line 321.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 285.
+(babel)             in language  on input line 321.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 285.
-[7
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 285.
+(babel)             in language  on input line 321.
+[8]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 321.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 285.
+(babel)             in language  on input line 321.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 285.
+(babel)             in language  on input line 321.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 285.
+(babel)             in language  on input line 321.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 285.
+(babel)             in language  on input line 321.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 285.
+(babel)             in language  on input line 321.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 285.
- [8 <./Abb4.png>]
+(babel)             in language  on input line 321.
+ [9 <./Abb4.png>]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 285.
+(babel)             in language  on input line 321.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 285.
+(babel)             in language  on input line 321.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 285.
+(babel)             in language  on input line 321.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 285.
+(babel)             in language  on input line 321.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 285.
+(babel)             in language  on input line 321.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 285.
- [9 <./Abb5.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 285.
+(babel)             in language  on input line 321.
+ [10 <./Abb5.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 321.
  (./Protokoll 10.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 285.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 285.
-
-
-Package rerunfilecheck Warning: File `"Protokoll 10".out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"Protokoll 10".out':
-(rerunfilecheck)             Before: AC27AF6030AE9544584A589B4D5F5FB3;621
-(rerunfilecheck)             After:  E94791E39A366A207676595EE39F5D8A;728.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 321.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 321.
+Package rerunfilecheck Info: File `"Protokoll 10".out' has not changed.
+(rerunfilecheck)             Checksum: E94791E39A366A207676595EE39F5D8A;728.
  ) 
 Here is how much of TeX's memory you used:
- 16001 strings out of 492649
- 296119 string characters out of 6129622
- 378657 words of memory out of 5000000
- 19566 multiletter control sequences out of 15000+600000
- 42687 words of font info for 35 fonts, out of 8000000 for 9000
+ 16189 strings out of 492649
+ 298648 string characters out of 6129622
+ 383373 words of memory out of 5000000
+ 19741 multiletter control sequences out of 15000+600000
+ 44862 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,10n,73p,817b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,10n,73p,834b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/20
 18/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2018/texmf-d
@@ -949,10 +970,10 @@ mf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fon
 ts/type1/public/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
 blic/lm/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy
 10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on "Protokoll 10.pdf" (9 pages, 696977 bytes).
+Output written on "Protokoll 10.pdf" (10 pages, 698995 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
- 146 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 105 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 189 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

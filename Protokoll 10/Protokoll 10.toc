@@ -7,5 +7,5 @@
 \contentsline {subsection}{\numberline {3.2}2. Versuchsteil: Das Bessel-Verfahren}{5}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}3. Versuchsteil: Das Abbe-Verfahren}{5}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}4. Versuchsteil: Autokollimationsverfahren und Dispersion}{7}{subsection.3.4}
-\contentsline {section}{\numberline {4}Diskussion der Ergebnisse}{7}{section.4}
-\contentsline {section}{\numberline {5}Anhang}{7}{section.5}
+\contentsline {section}{\numberline {4}Diskussion der Ergebnisse}{8}{section.4}
+\contentsline {section}{\numberline {5}Anhang}{8}{section.5}
