@@ -1,0 +1,188 @@
+\documentclass[11pt,a4paper]{article} %% 1.Ebene = chapter, headings
+
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc} 
+\usepackage{lmodern}
+\usepackage{tcolorbox}
+
+\usepackage[german]{babel}
+
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1ex plus 0.5ex minus 0.5ex}
+
+\usepackage{amsmath} 
+
+
+\usepackage{graphicx} 
+
+\usepackage[section]{placeins}
+\usepackage{booktabs}
+
+
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks,
+	citecolor=red,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black}
+\graphicspath{}
+
+\begin{document}
+
+
+
+{
+	\centering 
+	\large 
+	Physiklabor für Anfänger*innen \\
+	Ferienpraktikum im Sommersemester 2018 \\[4mm]
+	\textbf{\LARGE 
+		Versuch 22: Kreiselpräzession
+	} \\[3mm]
+	(durchgeführt am 21.09.2018 bei Adrian Hauber) \\
+	Ye Joon Kim, Marouan Zouari\\
+	\today \\[10mm]
+}
+
+\section{Einführung}
+Ein schräger Kreisel, auf den eine Gravitationskraft wirkt, führt eine Präzession aus, da das auf den Kreisel wirkende Drehmoment verursacht eine Änderung des Drehmoments senkrecht zur Kraft und Figurenachse.
+
+Das Drehmoment ist definiert als die Zeitliche Änderung des Drehimpulses. 
+\begin{equation}
+\vec{M} = \frac{d\vec{L}}{dt}
+\end{equation}
+und das Drehimpuls lässt auch sich in diesem Fall schreiben als:
+\begin{equation}
+\vec{M} =\vec{r}\times\vec{G}
+\end{equation}
+
+Mit Geometrie kann $dL$ in Terme von $d\varphi$ geschrieben werden (Siehe Abbildung). Da die Präzissionsgeschwindigkeit $\frac{d\varphi}{dt}$ ist, kann $\omega_P$ geschrieben werden als:
+$$\omega_P = \frac{dL}{dt\cdot L\cdot \sin\theta}$$
+und deshalb:
+$$\frac{d\vec{L}}{dt} = \vec{\omega_P}\times \vec{L}$$
+und mit Gleichung (1) und (2):
+$$\vec{r}\times \vec{G} = \vec{\omega_P}\times \vec{L}$$
+Angenommen, dass die Rotationsgeschwindigkeit, $\omega_F$, viel größer ist als die Präzessionsgeschwindigkeit, $\omega_P$ ist, können $\vec{L}$ zu $I_A\vec{\omega}_A$ und $\omega_A$ zu $\omega_F$ angenähert werden. Wobei $\vec{L}$ das Drehmoment, $I_A$ das Trägheitsmoment entlang der Figurenachse und $\omega_A$ der Anteil der Gesamt-Winkelgeschwindigkeit entlang der Figurenachse sind. Wenn man nur die Beträge betrachtet, kann die obige Formel zu 
+\begin{equation}
+I_A = \frac{rG}{\omega_F \omega_P}
+\end{equation}
+umgeformt werden.
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.5]{Abb0}
+	\caption{Bestimmung von $dL$ (Bildquelle: Vorlesungsfolien von Dr. Reiter, Experimentalphysik I)}
+\end{figure}
+
+\section{Ziel des Versuchs}
+Das Ziel dieses Versuchs ist es, das Trägheitsmoment des Kreisels entlang der Figurenachse durch die Messung der Präzessions- und Rotationsgeschwindigkeiten zu bestimmen.
+
+\section{Aufbau}
+Zur Bestimmung des Trägheitsmoments wurde ein Kreisel mit einer verschiebbaren Achse sowie zwei Stoppuhren benutzt, die die Präzessions- und Rotationsperioden messen. 
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.5]{Abb}
+	\caption{Aufbau zum Versuch ("Versuchsanleitungen")}
+\end{figure}
+
+\section{Durchführung}
+Zur Bestimmung des Einfluss der Reibung auf die Rotationsgeschwindigkeit wurde die Zeit von 5 Drehungen je 10 Sekunden gemessen und verglichen. 
+
+Der Kreisel wurde von Hand gegen den Uhrzeigersinn gedreht und auf die Halterung gestellt. Die Achse wurde dann vorsichtig um 20 bis 30 Grad gekippt, damit keine große Nutation entsteht. Mit der Kennzeichnung konnte die Anzahl Drehungen gezählt werden. Es wurde die Zeitdauer für 29 Rotationen gemessen. Je nach dem, wie langsam die Präzession waren, wurde die Zeitdauer für entweder eine oder zwei Präzessionen gemessen. Die Achse wurde dann um eine auf der Achse gekennzeichnete Einheit verschoben und der gesamte Prozesse wurde dann wiederholt. Der Prozess wurde für alle Einheiten auf der Achse wiederholt. Zuletzt wurde dann die Länge einer Einheit mit einem Lineal gemessen. 
+
+\section{Auswertung und Fehleranalyse}
+Zur Bestimmung des Trägheitsmoments entlang der Figurenachse wird die oben hergeleitete Formel benutzt, nämlich:
+$$I_A = \frac{rG}{\omega_F \omega_P}$$
+
+Zuerst wurden die Werte für $\omega_F$ und $\omega_P$ für die verschiedene $x$ und Messreihen bestimmt (Siehe Anhang 1). 
+\begin{tcolorbox}[colback=white]
+\subsubsection{Rechenweg}
+Für die Bestimmung von $\omega$ wurde die folgende Formel benutzt:
+$$ \omega = \frac{T_\textrm{Tot}}{n}\frac{1}{2\pi}$$
+Wobei $T_\textrm{Tot}$ die gesamte Zeitdauer der Messung, und $n$ die Anzahl Drehungen war.
+Für den Fehler wurde der Messfehler durch $sqrt{n}$ geteilt, da es handelt sich um einen Mittelwert.
+\end{tcolorbox}
+
+Um den Offset zwischen $x$, der Skala auf der Kreiselachse, und $r$, der wahre Abstand zwischen den Schwerpunkt und Unterstützungspunkt zu bestimmen wurde $\frac{\omega_F\omega_P}{G}$ gegen $x$ aufgetragen. Der x-Achsenabschnitt entspricht dann dem Offset zwischen $x$ und $r$, da nach Gleichung (3) soll $\frac{\omega_F\omega_P}{G}$ proportional zu $r$ sein und seine Fit-Kurve den Nullpunkt schneiden. Die Steigung entspricht dann $-\frac{1}{I_A}$, da Gleichung (3) lässt sich umformen als:
+$$ \frac{\omega_F\omega_P}{G}  = \frac{1}{I_A} r$$. Es ist hier zu beachten, dass die Steigung negativ ist, da die Werte für $x$ und $r$ in andere Richtungen gemessen wurden. Die Berechnung wurde mit einem Excel-Dokument und die Darstellung mit Logger-Pro gemacht (Siehe Abbildung 2).
+
+
+\begin{tcolorbox}[colback=white] 
+\subsubsection{Rechenweg}
+Zuerst wurden die Werte für $\frac{\omega_F\omega_P}{G}$ für alle Messreihen berechnet. Die Fehler für $\frac{\omega_F\omega_P}{G}$ wurden mit der Formel für die Standardabweichung bestimmt, nämlich:
+$$s_x = \sqrt{\frac{\sum_{i=1}^{n}(x_i-\bar{x})^2}{n-1}} $$
+\end{tcolorbox}
+
+\begin{figure}
+	\newpage
+	\centering
+	\includegraphics[width=\linewidth]{Abb1}
+	\caption{Eine Graph von $\frac{\omega_F\omega_P}{G}$ als Funktion von $x$}
+\end{figure}
+Das Trägheitsmoment entlang der Figurenachse ist deshalb:
+$$I_A = (0,190 \pm 0,004) \textrm{kgm}^2$$
+
+Die Unsicherheit wurde mit der vereinfachten gaußschen Fehlerfortpflanzung für Produkte und Quotienten berechnet. 
+\section{Diskussion der Ergebnisse}
+Der berechnete Wert für $I_A$ ist:
+$$I_A = (0,190 \pm 0,004) \textrm{kgm}^2$$
+
+Da es keinen Literatur- oder direkt gemessenen Wert für das Trägheitsmoment des Kreisels gibt, kann keinen direkten Vergleich gemacht werden. Trotzdem kann ein Maximalwert berechnet werden, indem man einen Idealfall betrachtet. Für einen idealen Hohlzylinder ist sein Trägheitsmoment $I = mr^2$. Deswegen ist das maximale theoretische Trägheitsmoment des Kreisels 0,32 kgm$^2$, angenommen, dass der Durchmesser des Kreisels nicht größer als 0,5 Meter war. In der Realität ist das Trägheitsmoment viel kleiner als dieser Wert, da der Kreisel hat auch Masse innerhalb seines Radius. Da der gemessene Wert kleiner als dieser Wert ist, kann es gesagt werden, dass der gemessene Wert vernünftig ist. Außerdem beträgt seine relative Unsicherheit ungefähr 0,02, was nicht schlecht ist für so ein grober Versuch. Das Ergebnis ist deshalb plausibel und kann als Beweis für Gleichung (3) dienen. 
+
+\subsection{Systematische und statistische Fehler}
+Die Absch"atzung der Anzahl der Drehungen als auch der Pr"azessionen mit bloßem Auge stellt eine große Quelle von statistischen Fehlern dar.
+\\\
+Wegen der hohen Drehgeschwindigkeit ist es  Schwierig die genaue Anzahl der Drehungen zu bestimmen und die Stoppuhr in dem richtigen Moment zu stoppen.
+
+Anfangs wurde es gecheckt, ob es einen signifikanten Reibungseffekt gab. Gäbe es signifikante Reibungseffekte, wäre das einen systematischen Fehler, da der Kreisel nach der Zeit langsamer drehen würde. Es wurde aber nur nach ungefähr 45 Sekunden eine signifikante Verlangsamung (größer als 0,3 Sekunde) der Drehgeschwindigkeit beobachtet. Deswegen wurden Reibungseffekte vernachlässigt. 
+
+Um das Tr"agheitsmoment $I_{A}$ zu bestimmen,wurde das Formel
+$I_A = \frac{rG}{\omega_F \omega_P}$ benutzt , die eine der Näherung für einen schnell rotierenden Kreisel ist.
+Weil die Drehungen mit Hand durchgef"uhrt wurden, k"onnte die Drehgeschwindigkeit nicht immer genau so sein, dass diese N"aherung immer erf"ullt ist. Davon entsteht ein systematische Fehler. Dieses Problem lässt sich dadurch lösen, indem man mit etwas einem elektrischen Apparat, wie z.B einem Motor, mit einer höheren Geschwindigkeit den Kreisel dreht.
+\section{Literatur und Bildquellen}
+,,Versuchsanleitung zum Physiklabor für Anfänger*innen.'' Albert-Ludwigs-Universität Freiburg. 
+Experimentalphysik I Vorlesungsfolien von Dr. Reiter.
+
+\section{Anhang}
+(Auf n"achste Seite )
+\begin{table}[h]
+	\centering
+	\begin{tabular*}{0.99\textwidth}{@{\extracolsep{\fill}}cccccc}
+		\toprule
+		$x$ & Messreihe & $\omega_F$ & $u_{\omega_F}$ & $\omega_P$ & $u_{\omega_P}$ \\
+		m &  & rad s$^{-1}$ & rad s$^{-1}$ & rad s$^{-1}$& rad s$^{-1}$    \\
+		\bottomrule
+		0 & 1 & 0,46 & 0,06 & 10,8 & 0,2 \\
+		& 2 & 0,50 & 0,06 & 9,9 & 0,2 \\
+		 & 3 & 0,47 & 0,06 & 10,5 & 0,2 \\
+		0,01 & 1 & 0,56 & 0,06 & 17,3 & 0,3\\
+		& 2 & 0,69 & 0,06 & 11,8 & 0,3 \\
+		& 3 & 0,51 & 0,06 & 15,7 & 0,3 \\
+		0,02 & 1 & 0,48 & 0,06 & 36,0  &  0,3\\
+		& 2 & 0,48 &0,06 & 38,4 & 0,3  \\
+		& 3 & 0,46 & 0,06 & 40,1 & 0,3 \\
+		0,04 & 1 & 0,50 & 0,06 & 23,1&0,3 \\
+		& 2 & 0,58 &0,06&18,8&0,3 \\
+		& 3 & 0,52 &0,06&18,7&0,3 \\
+		0,05 & 1 & 0,47 &0,06&13,2&0,2 \\
+		& 2 & 0,43&0,06&13,9&0,2 \\
+		& 3 & 0,42&0,06&14,8&0,2 \\
+		0,06 & 1 & 0,44 & 0,06 &9,7&0,2 \\
+		& 2 & 0,50 & 0,06&8,5&0,2 \\
+		& 3 & 0,49 & 0,05&9,6&0,2 \\
+		0,07 & 1 & 0,43 &0,06&8,3&0,3 \\
+		& 2 & 0,50&0,06&6,6&0,3 \\
+		& 3 & 0,48&0,06&7,3&0,3 \\
+		0,08 & 1 & 0,47 & 0,06&6,2&0,3 \\
+		& 2 & 0,50 & 0,06&6,0&0,3 \\
+		& 3 & 0,53&0,06&5,2&0,3 \\
+		\bottomrule
+	\end{tabular*}
+	\caption{Die Berechnete Winkelgeschwindigkeiten für Präzession und Rotation bei verschiedene $x$}
+	\label{tabelle}
+	
+(Unsicherheiten der $x$ sind 0,001m)
+\end{table}
+
+\end{document}

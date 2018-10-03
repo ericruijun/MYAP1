@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.21)  1 OCT 2018 15:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.21)  2 OCT 2018 14:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"Protokoll 10.tex"
-(./Protokoll 10.tex
+**"Protokoll1 edit.tex"
+(./Protokoll1 edit.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
@@ -363,48 +363,6 @@ Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 \tcb@out=\write4
 \tcb@record@out=\write5
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/feyn/feyn.sty
-Package: feyn 2017/11/03 0.4.1
-
-Package: `feyn' 0.4.1 <2017/11/03>
-\symfeynman=\mathgroup4
-\symtextfeynman=\mathgroup5
-\symfeynmanextended=\mathgroup6
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 103.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 103.
-
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 103
-.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 103
-.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 103.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 103.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 103.
-\feyn@mfbasemodule=\dimen142
-\feyn@module=\dimen143
-\feyn@maxis=\dimen144
-\feyn@mfextendedmodule=\dimen145
-\feyn@nudge=\dimen146
-)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2018/02/14 3.18 The Babel package
 
@@ -422,7 +380,7 @@ hy)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count102
-\U@D=\dimen147
+\U@D=\dimen142
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@dirlevel=\count103
@@ -440,11 +398,11 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks30
-\ex@=\dimen148
+\ex@=\dimen143
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen149
+\pmbraise@=\dimen144
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
@@ -461,7 +419,7 @@ LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box41
 \strutbox@=\box42
-\big@size=\dimen150
+\big@size=\dimen145
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \macc@depth=\count109
@@ -474,12 +432,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \column@=\count114
 \maxfields@=\count115
 \andhelp@=\toks32
-\eqnshift@=\dimen151
-\alignsep@=\dimen152
-\tagshift@=\dimen153
-\tagwidth@=\dimen154
-\totwidth@=\dimen155
-\lineht@=\dimen156
+\eqnshift@=\dimen146
+\alignsep@=\dimen147
+\tagshift@=\dimen148
+\tagwidth@=\dimen149
+\totwidth@=\dimen150
+\lineht@=\dimen151
 \@envbody=\toks33
 \multlinegap=\skip44
 \multlinetaggap=\skip45
@@ -487,28 +445,25 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/placeins/placeins.sty
-Package: placeins 2005/04/18  v 2.2
-)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen157
-\lightrulewidth=\dimen158
-\cmidrulewidth=\dimen159
-\belowrulesep=\dimen160
-\belowbottomsep=\dimen161
-\aboverulesep=\dimen162
-\abovetopsep=\dimen163
-\cmidrulesep=\dimen164
-\cmidrulekern=\dimen165
-\defaultaddspace=\dimen166
+\heavyrulewidth=\dimen152
+\lightrulewidth=\dimen153
+\cmidrulewidth=\dimen154
+\belowrulesep=\dimen155
+\belowbottomsep=\dimen156
+\aboverulesep=\dimen157
+\abovetopsep=\dimen158
+\cmidrulesep=\dimen159
+\cmidrulekern=\dimen160
+\defaultaddspace=\dimen161
 \@cmidla=\count116
 \@cmidlb=\count117
-\@aboverulesep=\dimen167
-\@belowrulesep=\dimen168
+\@aboverulesep=\dimen162
+\@belowrulesep=\dimen163
 \@thisruleclass=\count118
 \@lastruleclass=\count119
-\@thisrulewidth=\dimen169
+\@thisrulewidth=\dimen164
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
@@ -565,7 +520,7 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen170
+\@linkdim=\dimen165
 \Hy@linkcounter=\count120
 \Hy@pagecounter=\count121
 
@@ -579,6 +534,7 @@ Now handling font encoding PD1 ...
 (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
+Package hyperref Info: Option `colorlinks' set `true' on input line 4383.
 Package hyperref Info: Hyper figures OFF on input line 4509.
 Package hyperref Info: Link nesting OFF on input line 4514.
 Package hyperref Info: Hyper index ON on input line 4517.
@@ -593,15 +549,15 @@ Package hyperref Info: Bookmarks ON on input line 4762.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5115.
-\XeTeXLinkMargin=\dimen171
+\XeTeXLinkMargin=\dimen166
 \Fld@menulength=\count124
-\Field@Width=\dimen172
-\Fld@charsize=\dimen173
+\Field@Width=\dimen167
+\Fld@charsize=\dimen168
 Package hyperref Info: Hyper figures OFF on input line 6369.
 Package hyperref Info: Link nesting OFF on input line 6374.
 Package hyperref Info: Hyper index ON on input line 6377.
 Package hyperref Info: backreferencing OFF on input line 6384.
-Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring ON on input line 6387.
 Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
@@ -624,39 +580,45 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip46
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 30.
+(./Protokoll1 edit.aux
 
-(./Protokoll 10.aux)
-\openout1 = `"Protokoll 10.aux"'.
+LaTeX Warning: Label `tabelle' multiply defined.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 33.
+
+LaTeX Warning: Label `tabelle' multiply defined.
+
+)
+\openout1 = `"Protokoll1 edit.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 30.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) ABD: EveryShipout initializing macros
+)
+ABD: EveryShipout initializing macros
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count130
-\scratchdimen=\dimen174
+\scratchdimen=\dimen169
 \scratchbox=\box43
 \nofMPsegments=\count131
 \nofMParguments=\count132
 \everyMPshowfont=\toks35
 \MPscratchCnt=\count133
-\MPscratchDim=\dimen175
+\MPscratchDim=\dimen170
 \MPnumerator=\count134
 \makeMPintoPDFobject=\count135
 \everyMPtoPDFconversion=\toks36
@@ -678,7 +640,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box44
-Package hyperref Info: Link coloring ON on input line 33.
+Package hyperref Info: Link coloring ON on input line 30.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -688,292 +650,401 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count136
 )
-LaTeX Info: Redefining \ref on input line 33.
-LaTeX Info: Redefining \pageref on input line 33.
-LaTeX Info: Redefining \nameref on input line 33.
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
+LaTeX Info: Redefining \nameref on input line 30.
 
-(./Protokoll 10.out) (./Protokoll 10.out)
+(./Protokoll1 edit.out) (./Protokoll1 edit.out)
 \@outlinefile=\write6
-\openout6 = `"Protokoll 10.out"'.
-
- (./Protokoll 10.toc)
-\tf@toc=\write7
-\openout7 = `"Protokoll 10.toc"'.
+\openout6 = `"Protokoll1 edit.out"'.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 50.
+(babel)             in language  on input line 47.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 50.
+(babel)             in language  on input line 47.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 50.
+(babel)             in language  on input line 47.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 57.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 57.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 57.
+(babel)             in language  on input line 55.
+<Abb1.jpg, id=67, 249.66pt x 435.64154pt>
+File: Abb1.jpg Graphic file (type jpg)
+<use Abb1.jpg>
+Package pdftex.def Info: Abb1.jpg  used on input line 59.
+(pdftex.def)             Requested size: 124.8297pt x 217.82024pt.
+<Abb2.jpg, id=68, 1995.455pt x 1606.0pt>
+File: Abb2.jpg Graphic file (type jpg)
+<use Abb2.jpg>
+Package pdftex.def Info: Abb2.jpg  used on input line 64.
+(pdftex.def)             Requested size: 299.30533pt x 240.8896pt.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 57.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 57.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 57.
+(babel)             in language  on input line 69.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 69.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 69.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 69.
  [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 89.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 89.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 89.
+(babel)             in language  on input line 69.
+ [2 <./Abb1.jpg> <./Abb2.jpg>]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 90.
+(babel)             in language  on input line 72.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 90.
+(babel)             in language  on input line 72.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 90.
-<Abb2.png, id=69, 526.8483pt x 338.2236pt>
-File: Abb2.png Graphic file (type png)
-<use Abb2.png>
-Package pdftex.def Info: Abb2.png  used on input line 94.
-(pdftex.def)             Requested size: 360.0pt x 231.10892pt.
+(babel)             in language  on input line 72.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 74.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 74.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 74.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 75.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 75.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 97.
- [2]
-<Abb3.png, id=84, 611.28375pt x 529.98pt>
-File: Abb3.png Graphic file (type png)
-<use Abb3.png>
-Package pdftex.def Info: Abb3.png  used on input line 100.
-(pdftex.def)             Requested size: 305.64113pt x 264.98933pt.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 105.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 105.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 105.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 119.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 119.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 119.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 121.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 121.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 121.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 121.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 121.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 121.
- [3 <./Abb2.png>]
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 121.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 121.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 121.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 121.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 121.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 75.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 78.
 
-[4 <./Abb3.png>]
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 152.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 152.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 152.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 78.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 78.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 78.
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 78.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 78.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 78.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 88.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 88.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 143.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 143.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 143.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 143.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 143.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 200.
-[5]
+(babel)             in language  on input line 143.
+[3]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 172.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 172.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 172.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 172.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 172.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 172.
+ [4]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 198.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 198.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 198.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 198.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 198.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 198.
+ [5]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 206.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 206.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 206.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 244.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 244.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 244.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 244.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 244.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 244.
  [6]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 244.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 244.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 244.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 247.
+(babel)             in language  on input line 244.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 247.
+(babel)             in language  on input line 244.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 247.
+(babel)             in language  on input line 244.
+ [7]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 247.
+(babel)             in language  on input line 245.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 247.
+(babel)             in language  on input line 245.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 247.
- [7
-
-]
+(babel)             in language  on input line 245.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 249.
+(babel)             in language  on input line 307.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 249.
+(babel)             in language  on input line 307.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 249.
+(babel)             in language  on input line 307.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 251.
+(babel)             in language  on input line 307.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 251.
+(babel)             in language  on input line 307.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 251.
-
-Overfull \hbox (6.50945pt too wide) in alignment at lines 256--277
-[] [] [] [] [][][]
- []
-
-
-Overfull \hbox (6.50945pt too wide) in alignment at lines 284--305
-[] [] [] [] [][][]
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Abb4.png, id=116, 515.7669pt x 363.5181pt>
-File: Abb4.png Graphic file (type png)
-<use Abb4.png>
-Package pdftex.def Info: Abb4.png  used on input line 311.
-(pdftex.def)             Requested size: 360.0pt x 253.7343pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Abb5.png, id=117, 523.4757pt x 358.4592pt>
-File: Abb5.png Graphic file (type png)
-<use Abb5.png>
-Package pdftex.def Info: Abb5.png  used on input line 317.
-(pdftex.def)             Requested size: 360.0pt x 246.51666pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+(babel)             in language  on input line 307.
+ [8]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 321.
+(babel)             in language  on input line 309.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 321.
+(babel)             in language  on input line 309.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 321.
+(babel)             in language  on input line 309.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 321.
+(babel)             in language  on input line 310.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 321.
+(babel)             in language  on input line 310.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 321.
-[8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 321.
+(babel)             in language  on input line 310.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 321.
+(babel)             in language  on input line 310.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 321.
+(babel)             in language  on input line 310.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 321.
+(babel)             in language  on input line 310.
+ [9]
+<ex4gr1.png, id=133, 551.4201pt x 333.8874pt>
+File: ex4gr1.png Graphic file (type png)
+<use ex4gr1.png>
+Package pdftex.def Info: ex4gr1.png  used on input line 312.
+(pdftex.def)             Requested size: 360.0pt x 217.98204pt.
+<ex4gr2.png, id=135, 552.8655pt x 334.6101pt>
+File: ex4gr2.png Graphic file (type png)
+<use ex4gr2.png>
+Package pdftex.def Info: ex4gr2.png  used on input line 315.
+(pdftex.def)             Requested size: 360.0pt x 217.88713pt.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 321.
+(babel)             in language  on input line 318.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 321.
+(babel)             in language  on input line 318.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 321.
- [9 <./Abb4.png>]
+(babel)             in language  on input line 318.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 321.
+(babel)             in language  on input line 318.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 321.
+(babel)             in language  on input line 318.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 321.
+(babel)             in language  on input line 318.
+ [10 <./ex4gr1.png> <./ex4gr2.png>]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 321.
+(babel)             in language  on input line 376.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 321.
+(babel)             in language  on input line 376.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 321.
- [10 <./Abb5.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 321.
- (./Protokoll 10.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 321.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 321.
-Package rerunfilecheck Info: File `"Protokoll 10".out' has not changed.
-(rerunfilecheck)             Checksum: E94791E39A366A207676595EE39F5D8A;728.
+(babel)             in language  on input line 376.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 377.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 377.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 377.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 379.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 379.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 379.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 379.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 379.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 379.
+ [11]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 393.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 393.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 393.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 403.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 403.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 403.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 403.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 403.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 403.
+ [12]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 405.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 405.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 405.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 405.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 405.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 405.
+
+[13]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 406.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 406.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 406.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 407.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 407.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 407.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 441.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 441.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 441.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 449.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 449.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 449.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 449.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 449.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 449.
+ [14]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 450.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 450.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 450.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 457.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 457.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 457.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 457.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 457.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 457.
+ [15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 457.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 457.
+ (./Protokoll1 edit.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 457.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 457.
+Package rerunfilecheck Info: File `"Protokoll1 edit".out' has not changed.
+(rerunfilecheck)             Checksum: EDD6BE6795946DFC6EFCB204A27869CF;1097.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 16189 strings out of 492649
- 298648 string characters out of 6129622
- 383373 words of memory out of 5000000
- 19741 multiletter control sequences out of 15000+600000
- 44862 words of font info for 44 fonts, out of 8000000 for 9000
+ 16044 strings out of 492649
+ 296677 string characters out of 6129622
+ 376263 words of memory out of 5000000
+ 19596 multiletter control sequences out of 15000+600000
+ 42687 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,10n,73p,834b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,14n,73p,846b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
-texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/20
-18/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2018/texmf-d
-ist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2018/texmf-dist/fonts/
-enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/l
+texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
+18/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2018/texmf-d
+ist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/
+dvips/lm/lm-mathex.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/l
 m/lmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.p
 fb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/l
 ocal/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2018/tex
-mf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fon
-ts/type1/public/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
-blic/lm/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy
-10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on "Protokoll 10.pdf" (10 pages, 698995 bytes).
+ve/2018/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2018/tex
+mf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2018/texmf-dist/fon
+ts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
+blic/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr
+6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texl
+ive/2018/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2018/te
+xmf-dist/fonts/type1/public/lm/lmsy8.pfb>
+Output written on "Protokoll1 edit.pdf" (15 pages, 638591 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 158 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 234 PDF objects out of 1000 (max. 8388607)
+ 197 compressed objects within 2 object streams
+ 50 named destinations out of 1000 (max. 500000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
 

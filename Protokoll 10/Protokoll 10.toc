@@ -2,5 +2,10 @@
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
 \contentsline {section}{\numberline {2}Aufbau und Durchf\IeC {\"u}hrung}{2}{section.2}
 \contentsline {section}{\numberline {3}Auswertung und Fehleranalyse}{2}{section.3}
-\contentsline {section}{\numberline {4}Diskussion der Ergebnisse}{3}{section.4}
-\contentsline {section}{\numberline {5}Anhang}{3}{section.5}
+\contentsline {subsection}{\numberline {3.1}1. Versuchsteil: Abbildungen mit Einzellinsen und Linsensystemen}{2}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Rechenweg}{3}{subsubsection.3.1.1}
+\contentsline {subsection}{\numberline {3.2}2. Versuchsteil: Das Bessel-Verfahren}{5}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}3. Versuchsteil: Das Abbe-Verfahren}{5}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}4. Versuchsteil: Autokollimationsverfahren und Dispersion}{7}{subsection.3.4}
+\contentsline {section}{\numberline {4}Diskussion der Ergebnisse}{8}{section.4}
+\contentsline {section}{\numberline {5}Anhang}{8}{section.5}
