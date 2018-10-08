@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.7.5)  8 OCT 2018 19:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.7.5)  8 OCT 2018 21:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1130,7 +1130,7 @@ Package babel Info: Redefining german shorthand "|
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 327.
 
-Overfull \hbox (17.50858pt too wide) in alignment at lines 333--342
+Overfull \hbox (22.98357pt too wide) in alignment at lines 333--342
 [] [] [] [] []
  []
 
@@ -1291,7 +1291,7 @@ onts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr
 12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-
 dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public
 /lm/lmsy8.pfb>
-Output written on "Protokoll 13.pdf" (15 pages, 1244233 bytes).
+Output written on "Protokoll 13.pdf" (15 pages, 1244255 bytes).
 PDF statistics:
  301 PDF objects out of 1000 (max. 8388607)
  249 compressed objects within 3 object streams
