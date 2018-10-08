@@ -92,7 +92,7 @@ Die Frequenzgenerator und der Oszillator wurden angeschaltet. Es wurde dann ein 
 
 \subsection{Auswertung und Fehleranalyse}
 
-Um mit unseren Messdaten die Schallgeschwindigkeit bestimmen zu k\"onnen, tragen wir zuerst die Lagen der Maxima und Minima in Diagramme auf. Daraufhin f\"uhren wir eine lineare Regression durch und f\"ugen sie dem Bild hinzu. Die Resultierenden Graphiken im Anhang als Abbildung \ref{Abb:3}, \ref{Abb:4} und %\ref{Abb:5} gefunden werden.
+Um mit unseren Messdaten die Schallgeschwindigkeit bestimmen zu k\"onnen, tragen wir zuerst die Lagen der Maxima und Minima in Diagramme auf. Daraufhin f\"uhren wir eine lineare Regression durch und f\"ugen sie dem Bild hinzu. Die Resultierenden Graphiken im Anhang als Abbildung \ref{Abb:3}, \ref{Abb:4} und \ref{Abb:5} gefunden werden.
 
 Um die lineare Regression durchf\"uhren zu k\"onnen, nehmen wir uns das folgende Polynom ersten Grades vor:
 \[ a+bx\]
@@ -239,10 +239,17 @@ Die mit der Wellenlängemessung bestimmte Schallgeschwindigkeit ist:
 $$ c = (361 \pm 6) \textrm{m/s} $$
 
 Um zu sehen ob dieses Ergebnis und der theoretischer Wert miteinander verträglich sind wurde ihre Differenz in Einheiten der Standardunsicherheit berechnet, nämlich mit:
-$$ t = \frac{c - c_\textrm{theo}}{s_{\bar{c}}} $$
+$$ t = \frac{c - c_\textrm{theo}}{u_{\bar{c}}} $$
 , was $t \approx 1,03 $ beträgt. 
 	
 Da dieser Wert kleiner als 2 ist, sind die zwei Werte miteinander verträglich, und da die relative Unsicherheit 1,7\% ist dieses Ergebnis auch signifikant. 
+
+Ein statistischer Fehler war es, dass die Auflösung und Größe des Bildschirms nicht besonders gut waren. Deswegen war es ein Bisschen schwierig festzustellen ob beide Wellen genau in Deckung waren. Dieses Problem lässt sich dadurch lösen, indem man einen Oszilloskop mit einem größeren Bildschirm oder besserer Auflösung benutzt. 
+
+Ein anderer Fehler war es, dass die abgebildeten Wellen nach der Zeit sich leicht verschieben, obwohl die ,,Trigger'' Funktion benutzt wurde. Sein Einfluss wurde minimiert, indem man die Lage der gesamten Abbildung ständig horizontal mit dem Drehknopf korrigiert. 
+
+
+
 
 
 \section{3. Versuchsteil: Bestimmung der Ultraschallgeschwindigkeit durch die Messung der Laufzeit}

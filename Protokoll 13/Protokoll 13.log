@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.21)  8 OCT 2018 15:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.21)  8 OCT 2018 16:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -633,6 +633,10 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 93.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 93.
+
+
+LaTeX Warning: Reference `Abb:5' on page 3 undefined on input line 95.
+
 Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 104.
 Package babel Info: Redefining german shorthand "|
@@ -645,7 +649,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 104.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 104.
- [3 <./Abb1.jpg>]
+[3 <./Abb1.jpg>]
 Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 143.
 Package babel Info: Redefining german shorthand "|
@@ -737,110 +741,110 @@ Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 242.
  [6]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 248.
+(babel)             in language  on input line 255.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 248.
+(babel)             in language  on input line 255.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 248.
+(babel)             in language  on input line 255.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 250.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 250.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 250.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 251.
+(babel)             in language  on input line 258.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 251.
+(babel)             in language  on input line 258.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 251.
+(babel)             in language  on input line 258.
 <Abb3.png, id=163, 557.08125pt x 361.35pt>
 File: Abb3.png Graphic file (type png)
 <use Abb3.png>
-Package pdftex.def Info: Abb3.png  used on input line 254.
+Package pdftex.def Info: Abb3.png  used on input line 261.
 (pdftex.def)             Requested size: 278.53995pt x 180.67456pt.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 259.
+(babel)             in language  on input line 266.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 259.
+(babel)             in language  on input line 266.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 259.
+(babel)             in language  on input line 266.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 268.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 268.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<1minimumonnly.png, id=164, 722.7pt x 542.025pt>
+(babel)             in language  on input line 268.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 268.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 268.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 268.
+ [7 <./Abb3.png>]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 269.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 269.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 269.
+<1minimumonnly.png, id=171, 722.7pt x 542.025pt>
 File: 1minimumonnly.png Graphic file (type png)
 <use 1minimumonnly.png>
-Package pdftex.def Info: 1minimumonnly.png  used on input line 299.
+Package pdftex.def Info: 1minimumonnly.png  used on input line 306.
 (pdftex.def)             Requested size: 386.95897pt x 290.21622pt.
 File: 1minimumonnly.png Graphic file (type png)
 <use 1minimumonnly.png>
-Package pdftex.def Info: 1minimumonnly.png  used on input line 307.
+Package pdftex.def Info: 1minimumonnly.png  used on input line 314.
 (pdftex.def)             Requested size: 386.95897pt x 290.21622pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 325.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 315.
+(babel)             in language  on input line 325.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 315.
+(babel)             in language  on input line 325.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 315.
+(babel)             in language  on input line 325.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 315.
+(babel)             in language  on input line 325.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 315.
+(babel)             in language  on input line 325.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 315.
-[7 <./Abb3.png>]
+(babel)             in language  on input line 325.
+ [8]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 315.
+(babel)             in language  on input line 325.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 315.
+(babel)             in language  on input line 325.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 315.
+(babel)             in language  on input line 325.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 315.
+(babel)             in language  on input line 325.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 315.
+(babel)             in language  on input line 325.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 315.
- [8 <./1minimumonnly.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 318.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 318.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 318.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 318.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 318.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 318.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 318.
- [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 318.
- (./Protokoll 13.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 318.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 318.
+(babel)             in language  on input line 325.
+ [9 <./1minimumonnly.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 325.
+
+(./Protokoll 13.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 325.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 325.
 Package rerunfilecheck Info: File `"Protokoll 13".out' has not changed.
 (rerunfilecheck)             Checksum: 7B95B41E77A6ADA50F8FD1A4F6B2CFA9;1310.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 318.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 325.
  ) 
 Here is how much of TeX's memory you used:
- 7919 strings out of 492649
- 113177 string characters out of 6129622
- 228858 words of memory out of 5000000
- 11630 multiletter control sequences out of 15000+600000
+ 7920 strings out of 492649
+ 113184 string characters out of 6129622
+ 227858 words of memory out of 5000000
+ 11631 multiletter control sequences out of 15000+600000
  42687 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,13n,39p,762b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -858,7 +862,7 @@ ts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
 blic/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr
 8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on "Protokoll 13.pdf" (9 pages, 534276 bytes).
+Output written on "Protokoll 13.pdf" (9 pages, 535520 bytes).
 PDF statistics:
  240 PDF objects out of 1000 (max. 8388607)
  208 compressed objects within 3 object streams
