@@ -9,10 +9,11 @@
 \contentsline {subsection}{\numberline {4.1}Aufbau}{6}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Durchf\IeC {\"u}hrung}{6}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Auswertung und Fehleranalyse}{6}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Diskussion der Ergebnisse}{7}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.4}Diskussion der Ergebnisse}{8}{subsection.4.4}
 \contentsline {section}{\numberline {5}3. Versuchsteil: Bestimmung der Ultraschallgeschwindigkeit durch die Messung der Laufzeit}{8}{section.5}
 \contentsline {subsection}{\numberline {5.1}Aufbau}{8}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Durchf\IeC {\"u}hrung}{8}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Auswertung und Fehleranalyse}{9}{subsection.5.3}
 \contentsline {subsection}{\numberline {5.4}Diskussion}{9}{subsection.5.4}
-\contentsline {section}{\numberline {6}Anhang: Tabellen und Diagramme}{9}{section.6}
+\contentsline {section}{\numberline {6}Zusammenfassung}{10}{section.6}
+\contentsline {section}{\numberline {7}Anhang: Tabellen und Diagramme}{10}{section.7}
