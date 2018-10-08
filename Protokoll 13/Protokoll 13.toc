@@ -11,9 +11,9 @@
 \contentsline {subsection}{\numberline {4.2}Aufbau}{4}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Durchf\IeC {\"u}hrung}{4}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}Auswertung und Fehleranalyse}{4}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Diskussion der Ergebnisse}{4}{subsection.4.5}
-\contentsline {section}{\numberline {5}3. Versuchsteil: Bestimmung der Ultraschallgeschwindigkeit durch die Messung der Laufzeit}{4}{section.5}
-\contentsline {subsection}{\numberline {5.1}Theorie}{4}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Aufbau}{4}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Durchf\IeC {\"u}hrung}{5}{subsection.5.3}
-\contentsline {section}{\numberline {6}Anhang: Tabellen und Diagramme}{5}{section.6}
+\contentsline {subsection}{\numberline {4.5}Diskussion der Ergebnisse}{6}{subsection.4.5}
+\contentsline {section}{\numberline {5}3. Versuchsteil: Bestimmung der Ultraschallgeschwindigkeit durch die Messung der Laufzeit}{6}{section.5}
+\contentsline {subsection}{\numberline {5.1}Theorie}{6}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Aufbau}{6}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Durchf\IeC {\"u}hrung}{6}{subsection.5.3}
+\contentsline {section}{\numberline {6}Anhang: Tabellen und Diagramme}{6}{section.6}

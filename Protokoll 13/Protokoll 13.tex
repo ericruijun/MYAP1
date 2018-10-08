@@ -117,6 +117,85 @@ Der Sender und der Empfänger (mit dem Mikrometerschraube) wurden auf beiden Sei
 
 
 \subsection{Auswertung und Fehleranalyse}
+Für jede Messreihe wurde die $x$ Werte gegen $k$ aufgetragen (Siehe Anhang). Die lineare Regressionen wurden mithilfe eines Excel-Dokuments mit den folgenden Formel berechnet: 
+
+Die Steigung $b$ ist:
+$$ b = \frac{
+	n\sum k_ix_i-\sum k_i \sum x_i
+}{
+	n \sum k_i^2 - (\sum k_i)^2
+}$$
+
+und ihre Unsicherheit:
+$$u_b = s\cdot \sqrt{
+	\frac{
+		n
+	}{
+		n\sum k_i^2 - (\sum k_i)^2
+}}$$
+Mit 
+$s = \sqrt{
+	\frac{1}{n-2}\sum [x_i-(a+bk_i)]^2}$
+
+Es wurde nur die Steigungen und deren Unsicherheiten berechnet, da der Achsenabschnitt ist irrelevant. Die berechneten Steigungen und deren Unsicherheiten für jede Messreihe sind in Tabelle \ref{Table1} zu sehen. 
+
+
+\begin{table}[h]
+	\centering
+	\begin{tabular*}{0.50\textwidth}{@{\extracolsep{\fill}}cccc}
+		\toprule
+		Messreihe & $b$ & $u_b$ \\
+		& cm & cm\\
+		1 & 9,1 & 1,7 \\
+		2 & 8,6 & 0,2 \\
+		3 & 8,46 & 0,15 \\
+		4 & 8,51 & 0,02 \\
+		\bottomrule
+	\end{tabular*}
+\caption{Die berechneten Steigungen der linearen Regressionen von $x$ gegen $k$}
+\label{Table1}
+\end{table}
+
+Um die Schallgeschwindigkeit zu bestimmen wurde die folgende Formel benutzt:
+$$ c = \nu\lambda$$
+
+Für $\nu$ wurde die Durchschnittliche Frequenz während der Messreihe benutzt. Seine Unsicherheit wurde mit der Standardunsicherheit berechnet nämlich:
+$$ u_\nu = \frac{s_\nu}{\sqrt{n}}$$
+und
+$$ s_{\bar{\nu}} = \sqrt{\frac{\sum_{i=1}^{n}(\nu_i-\bar{\nu})^2}{n-1}}$$.
+
+Für die Unsicherheiten der Schallgeschwindigkeiten wurde die vereinfachte gaußsche Fehlerfortpflanzung für Produkte benutzt, aber da die Beträge von $\frac{u_\lambda}{\lambda}$ rund 100-mal größer als die von den $\frac{u_\nu}{\nu}$ Terme waren, wurde die Letzteren vernachlässigt. Die Unsicherheit von $c$ ist deshalb:
+$$ u_c = \left| \frac{u_\lambda}{\lambda}\right|$$
+
+Die berechnete Werte für die Schallgeschwindigkeiten und ihre Unsicherheiten sind in Tabelle \ref{Table2} zu sehen.
+
+\begin{table}[h]
+	\centering
+	\begin{tabular*}{0.50\textwidth}{@{\extracolsep{\fill}}cccc}
+		\toprule
+		Messreihe & $c$ & $u_c$ \\
+		& m/s&m/s\\
+		1 & 370 & 70 \\
+		2 & 350 & 10 \\
+		3 & 342 & 6 \\
+		4 & 344,2 & 0,8 \\
+		\bottomrule
+	\end{tabular*}
+	\caption{Die berechnete Schallgeschwindigkeit für alle Messreihe}
+	\label{Table2}
+\end{table}
+
+Die $c$ Werte wurden gemittelt und ihre Standardunsicherheit berechnet. 
+
+$$ c = (351 \pm 6) \textrm{ m/s}$$
+
+Die Unsicherheit wurde genau wie oben mit
+$$u_{\bar{c}} = \frac{1}{\sqrt{n}} \sqrt{\frac{\sum_{i=1}^{n}(c_i-\bar{c})^2}{n-1}}$$
+berechnet. 
+
+
+
+
 \subsection{Diskussion der Ergebnisse}
 
 \section{3. Versuchsteil: Bestimmung der Ultraschallgeschwindigkeit durch die Messung der Laufzeit}
