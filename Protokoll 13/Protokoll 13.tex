@@ -67,9 +67,6 @@ Das Ziel dieses Versuchs ist es, die Schallschallgeschwindigkeit von Luft auf dr
 
 \section{1. Versuchsteil: Bestimmung der Schallgeschwindigkeit mit einem Quinckeschen Rohr}
 
-\subsection{Theorie}
-
-XXXX
 
 \subsection{Aufbau}
 
@@ -133,7 +130,14 @@ Wir nutzen dann die Steigung, um die Wellenl\"angen zu bestimmen. Wir berechnen 
 \begin{equation}
 c=\nu\lambda
 \end{equation}
-die Ausbreitungsgeschwindigkeit der Wellen. Die Ergebnisse lauten dann:
+die Ausbreitungsgeschwindigkeit der Wellen.
+Die einzelnen Werten wurden dann gemittelt, und ihre Standardabweichung wurde berechnet um die Standardunsicherheit:
+$$u_{\bar{c}} = \frac{1}{\sqrt{n}} \sqrt{\frac{\sum_{i=1}^{n}(c_i-\bar{c})^2}{n-1}}$$
+des Mittelwerts zu berechnen. 
+ 
+Das Ergebnis lautet dann:
+$$ c= (370 \pm 60) \textrm{ m/s}$$
+
 
 
 
@@ -152,13 +156,20 @@ c_l=331\left(sqrt{\frac{T}{273,15\mathrm{K}}}\right)\frac{\mathrm{m}}{\mathrm{s}
 den theoretischen Wert f\"ur die Schallgeschwindigkeit in dem verwendeten Raum. In diesem Fall wurde $T=23$\celsius\ verwendet, und wir erhalten somit als Vergleichswert:
 
 \[
-c = (361 \pm 6) \textrm{m/s}
+c = 344 \textrm{m/s}
 \]
+
+Um zu sehen, ob die theoretische und gemessene Werte miteinander verträglich sind wurde ihre Differenz in Einheiten der Unsicherheit, $t = \frac{c-c\textrm{theo}}{u_c}$ berechnet: 
+$$t_c = 0,43$$
+Deswegen sind die beiden Werte miteinander verträglich. Das Problem ist aber, dass die relative Unsicherheit des gemessenen Werts ungefähr 16\% beträgt. Deshalb ist dieses Ergebnis nicht besonders signifikant.
+
+Ein sehr signifikanter statistischer Fehler war es, dass es sehr schwierig war, die genaue Lage des Maximums oder Minimums zu bestimmen, da die Schwankungen waren sehr graduell. Bei größeren Wellenlänge sind die Messungen noch schwieriger. Dieses Problem lässt sich lösen, indem man einen Oszilloskop benutzt, der besser die Amplitude und die Welle selbst besser darstellen kann. 
+
+
 
 \pagebreak
 
 \section{2. Versuchsteil: Bestimmung der Ultraschallgeschwindigkeit durch die Messung der Wellenlänge.}
-\subsection{Theorie}
 \subsection{Aufbau}
 \begin{figure}
 	\centering
@@ -265,7 +276,6 @@ Ein anderer Fehler war es, dass die abgebildeten Wellen nach der Zeit sich leich
 
 \section{3. Versuchsteil: Bestimmung der Ultraschallgeschwindigkeit durch die Messung der Laufzeit}
 
-\subsection{Theorie}
 \subsection{Aufbau}
 \begin{figure}[h]
 	\centering
@@ -301,40 +311,10 @@ Um dieses Ergebnis verstehen zu k\"onnen, muss klar gemacht werden, dass durch d
 
 Au\ss erdem ist gleich wie beim vorherigen Teil auch das Ablesen des Messwertes ungenau. Durch Schwierigkeiten des Ablesens bei kleinen Gitterlinien haben wir eine statistische Unsicherheit auf der Zeit. Ist die Unsicherheit hiervon falsch gesch\"atzt, so beeinflusst dies unsichere Steigung stark.
 
+Es gelten dieselben Verbesserungsvorschläge wie in dem zweiten Versuchsteil. 
+
 \section{Anhang: Tabellen und Diagramme}
 
-\begin{table}[h]
-\centering
-\caption{XXXX} \vspace{11pt}
-$\begin{array}{l}
-\textrm{Unsicherheiten:}\\
-\textrm{XXXX: } \pm XX \textrm{XX}\\
-\end{array}$
-\begin{tabular}{ccc}
-\toprule
-\textrm{XXXX}/\textrm{XX} & \textrm{XXXX}/\textrm{XX} & \textrm{XXXX}/\textrm{XX} \\
-\midrule 
-2 & 0.26 & 0.23\\
-\hline
-4 & 0.33 & 0.25\\
-\hline 
-5 & & 0.3\\
-\hline 
-6 & 1.25 & 0.83\\
-\hline 
-8 & 3.9 & 0.83\\ 
-\hline
-9 & 4.75 & 4.6\\ 
-\hline
-10 & 4.7 &\\ 
-\bottomrule
-\end{tabular}
-\phantom{$\begin{array}{l}
-\textrm{Unsicherheiten:}\\
-\textrm{XXXX: } \pm XX \textrm{XX}\\
-\end{array}$}
-\label{Tab:X}
-\end{table}
 
 \begin{figure}[p]
 \centering
