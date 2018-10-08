@@ -9,6 +9,7 @@
 \usepackage{graphicx} 
 \usepackage{booktabs}
 \usepackage{hyperref}
+\usepackage{gensymb}
 \hypersetup{
     colorlinks,
     citecolor=red,
@@ -119,9 +120,9 @@ Mit diesen Formeln erhalten wir als Werte
 		\toprule
 		Messreihe & $b$ & $u_b$ \\
 		& cm & cm\\
-		1 & 7.6 & 0.03\\
-		2 & -0.27 & 0.03\\
-		3 & -0.27 & 0.03\\
+		1 & 4,5 & 0,3\\
+		2 & 7,6 & 0,3\\
+		3 & 4,5 & 0,3\\
 		\bottomrule
 	\end{tabular*}
 \caption{Die berechneten Steigungen der linearen Regressionen von $\nu$ gegen $l$}
@@ -142,7 +143,17 @@ die Ausbreitungsgeschwindigkeit der Wellen. Die Ergebnisse lauten dann:
 
 \section{Diskussion der Ergebnisse}
 
-XXXX
+Um einen Vergleichwert zu erhalten, rechnen wir mit
+
+\[
+c_l=331\left(sqrt{\frac{T}{273,15\mathrm{K}}}\right)\frac{\mathrm{m}}{\mathrm{s}}\approx\left(331+0,6\frac{\Delta T}{\mathrm{K}}\right)\mathrm{\frac{m}{s}}
+\]
+
+den theoretischen Wert f\"ur die Schallgeschwindigkeit in dem verwendeten Raum. In diesem Fall wurde $T=23$\celsius\ verwendet, und wir erhalten somit als Vergleichswert:
+
+\[
+c = (361 \pm 6) \textrm{m/s}
+\]
 
 \pagebreak
 
@@ -265,6 +276,30 @@ Für diesem Versuchsteil wurden dieselben Apparate wie in dem zweiten Teil und e
 
 \subsection{Durchführung}
 Zu diesem Versuchsteil wurde der Empfänger und der Sender auf derselben Seite der Bank fixiert. Auf der anderen Seite wurde ein Reflektor installiert. Es wurde die Betriebsart 3 des Frequenzgenerators ausgewählt. Der Oszilloskop und Frequenzgenerator wurden angeschaltet und justiert, sodass zwei Pulse im Bildschirm des Oszilloskops zu sehen waren. Der Abstand zwischen dem Empfänger-Sender Komplex und dem Reflektor wurde mit einem Maßband gemessen. Der Zeitdauer zwischen dem ausgesandten Puls und empfangenen Puls wurde direkt mithilfe der Skala auf dem Oszilloskop gemessen. 
+
+\subsection{Auswertung und Fehleranalyse}
+
+Um die Schallgeschwindigkeit zu bestimmen, tragen wir unsere gemessenen Daten mit $t$ gegen $x$ auf und f\"uhren eine lineare Regression durch. 
+
+Wir erhalten mit der in den vorherigen Teil beschriebenen Methode f\"ur unsere Steigung einen Wert von 18872\,$\nicefrac{\mathrm{cm}}{\mathrm{s}}$. Da wir nur eine halbe Wellenl\"ange messen, verdoppeln wir diesen Wert und erhalten eine Schallgeschwindigkeit von 37740\,$\nicefrac{\mathrm{cm}}{\mathrm{s}}$.
+
+Um die Unsicherheit des Wertes zu bestimmen rechnen wir mit der Formel f\"ur die Streuung,
+
+\[s_x=\sqrt{\frac{1}{n-1}\sum_{i=1}^n(x_i-\overline{x})^2},\]
+
+und erhalten eine Unsicherheit von 9\,$\nicefrac{\mathrm{cm}}{\mathrm{s}}$.
+
+\subsection{Diskussion}
+
+Vergleichen wir diesen Wert mit der schon bekannten $t$-Formel
+
+\[\frac{\vert x-y_0\vert}{u_x}\]
+
+mit dem vorher berechneten theoretischen Ergebniss, so erhalten wir $t=1626$. Wir sind hiermit also deutlich au\ss erhalb des erw\"unschten $t>2$-Bereichs. Daraus schlie\ss en wir, dass unsere Werte unvertr\"aglich sind.
+
+Um dieses Ergebnis verstehen zu k\"onnen, muss klar gemacht werden, dass durch die Zeitablenkung des Oszilloskops eine systematische Unsicherheit vorhanden ist. Es kann also sein, dass das Oszilloskop falsch eingestellt wurde und somit jede Messung einzeln eine andere systematische Unsicherheit aufgrund der Neueinstellung des Ger\"ats besitzt.
+
+Au\ss erdem ist gleich wie beim vorherigen Teil auch das Ablesen des Messwertes ungenau. Durch Schwierigkeiten des Ablesens bei kleinen Gitterlinien haben wir eine statistische Unsicherheit auf der Zeit. Ist die Unsicherheit hiervon falsch gesch\"atzt, so beeinflusst dies unsichere Steigung stark.
 
 \section{Anhang: Tabellen und Diagramme}
 
