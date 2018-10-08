@@ -92,7 +92,7 @@ Die Frequenzgenerator und der Oszillator wurden angeschaltet. Es wurde dann ein 
 
 \subsection{Auswertung und Fehleranalyse}
 
-Um mit unseren Messdaten die Schallgeschwindigkeit bestimmen zu k\"onnen, tragen wir zuerst die Lagen der Maxima und Minima in Diagramme auf. Daraufhin f\"uhren wir eine lineare Regression durch und f\"ugen sie dem Bild hinzu. Die Resultierenden Graphiken im Anhang als Abbildung %\ref{Abb:3}, \ref{Abb:4} und \ref{Abb:5} gefunden werden.
+Um mit unseren Messdaten die Schallgeschwindigkeit bestimmen zu k\"onnen, tragen wir zuerst die Lagen der Maxima und Minima in Diagramme auf. Daraufhin f\"uhren wir eine lineare Regression durch und f\"ugen sie dem Bild hinzu. Die Resultierenden Graphiken im Anhang als Abbildung \ref{Abb:3}, \ref{Abb:4} und %\ref{Abb:5} gefunden werden.
 
 Um die lineare Regression durchf\"uhren zu k\"onnen, nehmen wir uns das folgende Polynom ersten Grades vor:
 \[ a+bx\]
@@ -173,7 +173,7 @@ $$u_b = s\cdot \sqrt{\frac{n}{n\sum k_i^2 - (\sum k_i)^2}}$$
 Mit 
 $s = \sqrt{\frac{1}{n-2}\sum [x_i-(a+bk_i)]^2}$
 
-Es wurde nur die Steigungen und deren Unsicherheiten berechnet, da der Achsenabschnitt ist irrelevant. Die berechneten Steigungen und deren Unsicherheiten für jede Messreihe sind in Tabelle \ref{Table1} zu sehen. 
+Es wurden nur die Steigungen und deren Unsicherheiten berechnet, da der Achsenabschnitt ist irrelevant. Die berechneten Steigungen und deren Unsicherheiten für jede Messreihe sind in Tabelle \ref{Table1} zu sehen. 
 
 
 \begin{table}[h]
@@ -203,7 +203,7 @@ $$ s_{\bar{\nu}} = \sqrt{\frac{\sum_{i=1}^{n}(\nu_i-\bar{\nu})^2}{n-1}}$$.
 Für die Unsicherheiten der Schallgeschwindigkeiten wurde die vereinfachte gaußsche Fehlerfortpflanzung für Produkte benutzt, aber da die Beträge von $\frac{u_\lambda}{\lambda}$ rund 100-mal größer als die von den $\frac{u_\nu}{\nu}$ Terme waren, wurde die Letzteren vernachlässigt. Die Unsicherheit von $c$ ist deshalb:
 $$ u_c = \left| \frac{u_\lambda}{\lambda}\right|$$
 
-Die berechnete Werte für die Schallgeschwindigkeiten und ihre Unsicherheiten sind in Tabelle %\ref{Table2} zu sehen.
+Die berechnete Werte für die Schallgeschwindigkeiten und ihre Unsicherheiten sind in Tabelle \ref{Table2} zu sehen.
 
 \begin{table}[h]
 	\centering
@@ -218,7 +218,7 @@ Die berechnete Werte für die Schallgeschwindigkeiten und ihre Unsicherheiten si
 		\bottomrule
 	\end{tabular*}
 	\caption{Die berechnete Schallgeschwindigkeit für alle Messreihe}
-	\label{Table2}
+\label{Table2}
 \end{table}
 
 Die $c$ Werte wurden gemittelt und ihre Standardunsicherheit berechnet. 
@@ -239,7 +239,7 @@ Die mit der Wellenlängemessung bestimmte Schallgeschwindigkeit ist:
 $$ c = (361 \pm 6) \textrm{m/s} $$
 
 Um zu sehen ob dieses Ergebnis und der theoretischer Wert miteinander verträglich sind wurde ihre Differenz in Einheiten der Standardunsicherheit berechnet, nämlich mit:
-$$ t = \frac{c - c_\textrm{theo}{s_{\bar{c}}} $$
+$$ t = \frac{c - c_\textrm{theo}}{s_{\bar{c}}} $$
 , was $t \approx 1,03 $ beträgt. 
 	
 Da dieser Wert kleiner als 2 ist, sind die zwei Werte miteinander verträglich, und da die relative Unsicherheit 1,7\% ist dieses Ergebnis auch signifikant. 
@@ -307,7 +307,7 @@ $\begin{array}{l}
 \fbox{\includegraphics[width=0.8\textwidth]{1minimumonnly}}
 \renewcommand\thefigure{3}
 \caption[Auftragen der Maxima und Minima in Abh\"angikeit der Frequenz f\"ur den ersten Versuchsteil bei Frequenz um 5036 Hz]{Auftragen der Maxima und Minima in Abh\"angikeit der Frequenz f\"ur den ersten Versuchsteil bei Frequenz um 5036 Hz}
-\label{Abb:3}
+\label{Abb:4}
 \end{figure}
 
 \begin{thebibliography}{9}
