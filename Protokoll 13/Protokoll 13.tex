@@ -92,7 +92,53 @@ Die Frequenzgenerator und der Oszillator wurden angeschaltet. Es wurde dann ein 
 
 \subsection{Auswertung und Fehleranalyse}
 
-XXXX
+Um mit unseren Messdaten die Schallgeschwindigkeit bestimmen zu k\"onnen, tragen wir zuerst die Lagen der Maxima und Minima in Diagramme auf. Daraufhin f\"uhren wir eine lineare Regression durch und f\"ugen sie dem Bild hinzu. Die Resultierenden Graphiken im Anhang als Abbildung \ref{Abb:3}, \ref{Abb:4} und \ref{Abb:5} gefunden werden.
+
+Um die lineare Regression durchf\"uhren zu k\"onnen, nehmen wir uns das folgende Polynom ersten Grades vor:
+\[ a+bx\]
+
+F\"ur $a$ berechnen wir
+
+\[a=\frac{\sum x_i^2\sum y_i-\sum x_i\sum x_iy_i}{n\sum x_i^2-(\sum x_i)^2}\]
+und f\"ur b
+\[b=\frac{n\sum x_iy_i-\sum x_i\sum y_i}{n\sum x_i^2-(\sum x_i)^2}.\]
+
+Wollen wir dessen Unsicherheiten bestimmen, so k\"onnen wir die folgenden Formeln verwenden:
+\[
+s=\sqrt{\frac{1}{n-2}\sum^n_{i=1}[y_i-(a+bx_i)]^2}\]
+
+\[\Delta a=s\sqrt{\frac{\sum x_i^2}{n\sum x_i^2-(\sum x_i)^2}}\]
+
+\[\Delta b=s\sqrt{\frac{n}{n\sum x_i^2-(\sum x_i)^2}}\]
+
+Mit diesen Formeln erhalten wir als Werte
+
+\begin{table}[h]
+	\centering
+	\begin{tabular*}{0.50\textwidth}{@{\extracolsep{\fill}}cccc}
+		\toprule
+		Messreihe & $b$ & $u_b$ \\
+		& cm & cm\\
+		1 & -0.27 & 0.03\\
+		2 & -0.27 & 0.03\\
+		3 & -0.27 & 0.03\\
+		\bottomrule
+	\end{tabular*}
+\caption{Die berechneten Steigungen der linearen Regressionen von $\nu$ gegen $l$}
+\label{Table1}
+\end{table}
+
+Wir nutzen dann die Steigung, um die Wellenl\"angen zu bestimmen. Wir berechnen dann einfach mit
+\begin{equation}
+c=\nu\lambda
+\end{equation}
+die Ausbreitungsgeschwindigkeit der Wellen. Die Ergebnisse lauten dann:
+
+
+
+
+
+
 
 \section{Diskussion der Ergebnisse}
 
@@ -246,13 +292,21 @@ $\begin{array}{l}
 \label{Tab:X}
 \end{table}
 
-%\begin{figure}[p]
-%\centering
-%\fbox{\includegraphics[width=0.8\textwidth]{NAME}}
-%\renewcommand\thefigure{BX}
-%\caption[XXXX]{XXXX}
-%\label{Abb:X}
-%\end{figure}
+\begin{figure}[p]
+\centering
+\fbox{\includegraphics[width=0.8\textwidth]{1minimumonnly}}
+\renewcommand\thefigure{3}
+\caption[Auftragen der Minima in Abh\"angikeit der Frequenz f\"ur den ersten Versuchsteil]{Auftragen der Minima in Abh\"angikeit der Frequenz f\"ur den ersten Versuchsteil}
+\label{Abb:3}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+\fbox{\includegraphics[width=0.8\textwidth]{1minimumonnly}}
+\renewcommand\thefigure{3}
+\caption[Auftragen der Maxima und Minima in Abh\"angikeit der Frequenz f\"ur den ersten Versuchsteil bei Frequenz um 5036 Hz]{Auftragen der Maxima und Minima in Abh\"angikeit der Frequenz f\"ur den ersten Versuchsteil bei Frequenz um 5036 Hz}
+\label{Abb:3}
+\end{figure}
 
 \begin{thebibliography}{9}
 \bibitem{Uncertainties}''Correlations between variables are automatically handled, which sets this module apart from many existing error propagation codes.'' - https://pythonhosted.org/uncertainties/
