@@ -292,6 +292,17 @@ Der Abstand zwischen der Linse und dem Objekt, wobei eine Scharfe Abbildung mög
 Zur Bestimmung der Unsicherheiten wurde die vereinfachte Fehlerfortpflanzung für Summe verwendet. Deswegen ist $\Delta f$:
 $$\sqrt{2\cdot(0,2 \textrm{cm})^2} \approx 0,28$$
 
+Um mit einem theoretischen Wert vergleichen zu können wurde das Verhältnis von $f_\textrm{Rot}$ zu $f_\textrm{Blau}$ berechnet:
+$$ \frac{f_\textrm{Rot}}{f_\textrm{Blau}} = 1,02 \pm 0,01 $$
+
+Zur Bestimmung der Unsicherheit wurde erneut die gaußsche Fehlerfortpflanzung für Produkte benutzt:
+$$\Delta \frac{f_\textrm{Rot}}{f_\textrm{Blau}} / \frac{f_\textrm{Rot}}{f_\textrm{Blau}} = \sqrt{(\frac{\Delta f_\textrm{Rot}}{f_\textrm{Rot}})^2+(\frac{\Delta f_\textrm{Blau}}{f_\textrm{Blau}})^2}$$
+
+Die theoretische Wert dafür kann mit der folgenden Gleichung bestimmt werden:
+$$ \frac{1}{f} \propto n-1$$
+Mit Umformen liefert:
+$$\frac{f_\textrm{Rot}}{f_\textrm{Blau}} = \frac{n_\textrm{Blau}}{n_\textrm{Rot}}\approx1,031$$
+Mit $n_\textrm{Rot} = 1,514$ und $n_\textrm{Blau}=1,530$ (,,Versuchsanleitungen'').
 
 \subsection{Bestimmung der theoretischen Brennweiten}
 Zur Bestimmung der theoretische Brennweiten der Verschiedene Linsensysteme wurde die folgende Formel benutzt (Formel 2):
@@ -351,7 +362,7 @@ $$ t_\textrm{80 \& 200 mm} = 92,20$$
 Da die Werte für $t_\textrm{80 \& 150 mm}$ und $t_\textrm{80 \& 200 mm}$ viel größer als 2 sind, sind diese Ergebnisse mit den theoretischen Werten nicht verträglich. Aber das impliziert nicht, dass diese Werte nicht plausibel sind. Die theoretischen Werte wurden gemäß den gegebenen Abmessungen der Linsenhalterung berechnet. Es gab aber auch eine andere Berechnung von einer anderen Person, die besagt, dass die theoretischen Brennweiten $f_\textrm{80 \& 150 mm}$ und $f_\textrm{80 \& -200 mm}$ jeweils ungefähr 5,2 cm und 11 cm sind. Diese theoretischen Werte sind viel näher an den gemessenen Werten (aber sie sind jedoch miteinander nicht verträglich). 
 
 \subsection{Dritter Versuchsteil: Das Abbe-Verfahren}
-Der für diesen Versuchsteil ausgewählte Referenzpunkt war die linke Seite der Linsenhalterung. $f_1$, $f_2$, $h_1$ und $h_2$ sind die Lagen der Brennpunkte und Hauptebenen relativ zu diesem Punkt. Die Brennweite und Abstand zwischen den Hauptebenen muss deshalb zweimal von jeweils $f_1-f_2$ und $h_1-h_2$ sein. Diese Werte müssen für beide Messreihen übereinstimmen. Die gemessenen Brennweite und Abstände zwischen den Hauptebenen sind:
+Der für diesen Versuchsteil ausgewählte Referenzpunkt war die linke Seite der Linsenhalterung (Siehe Abbildung 1). $f_1$, $f_2$, $h_1$ und $h_2$ sind die Lagen der Brennpunkte und Hauptebenen relativ zu diesem Punkt. Die Brennweite und Abstand zwischen den Hauptebenen muss deshalb zweimal von jeweils $f_1-f_2$ und $h_1-h_2$ sein. Diese Werte müssen für beide Messreihen übereinstimmen. Die gemessenen Brennweite und Abstände zwischen den Hauptebenen sind:
 $$ f = 0,5 \textrm{ cm und }  3,5 \textrm{ cm}$$
 $$ h = 5,5 \textrm{ cm und } 4 \textrm{ cm} $$
 Die Werte stimmen miteinander und mit der theoretischen Brennweite nicht überein. Es kann auch graphisch gesehen werden (Anhang 3,4) dass die Streuung der Punkte auch sehr groß ist. Diese Ergebnisse sind deshalb von keiner großen Bedeutung. 
@@ -385,6 +396,11 @@ $$t_\textrm{80 \& -200 mm} = 13,33$$
 $$t_\textrm{-200 \& 80 mm} = 27,33$$
 
 Nur für $f=$ 80 mm waren die gemessenen und theoretischen Werte miteinander verträglich. Die anderen Ergebnisse sind absurd. 
+
+Das gemessene Verhältnis $$\frac{f_\textrm{Rot}}{f_\textrm{Blau}} = 1,02\pm 0,01$$ 
+wurde mit dem theoretischen Verhältnis verglichen. Ihre $t$ Wert ist:
+$$t = 1,1$$
+Deswegen sind beide Werte miteinander verträglich, und da der relative Fehler klein ist ($\approx 0,01$), ist dieses Ergebnis auch signifikant und kann als Beweis für die Gleichung $\frac{1}{f}\propto n-1$ dienen. 
 
 \subsection{Systematische und Statistischen Fehler}
 Die Durchmesser der Kreise auf dem Dia selbst haben auch Unsicherheiten und Abweichung von der angegebenen Werte. Deshalb entsteht ein Systematischer Fehler, wenn diese Werte bei der Berechnung verwendet werden. 
@@ -460,7 +476,8 @@ Eine statistische Fehler war es, dass es wegen der Dicke der Linsenhalterung sch
 	\includegraphics[width=\linewidth]{Abb5}
 	\caption{Graph von $b'$ gegen $1+\beta$ für beide Linsensysteme}
 \end{figure}
-
+\section{Literatur}
+,,Versuchsanleitung zum Physiklabor für Anfänger*innen.'' Albert-Ludwigs-Universität Freiburg. 
 
 
 \end{document}
