@@ -4,18 +4,18 @@
 \contentsline {section}{\numberline {3}Durchf"uhrung}{3}{section.3}
 \contentsline {section}{\numberline {4}Auswertung und Fehleranalyse}{4}{section.4}
 \contentsline {subsection}{\numberline {4.1}1. Versuchsteil: Abbildungen mit Einzellinsen und Linsensystemen}{4}{subsection.4.1}
-\contentsline {subsubsection}{\numberline {4.1.1}Berechnung}{4}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Berechnung}{6}{subsubsection.4.1.1}
 \contentsline {subsection}{\numberline {4.2}2. Versuchsteil: Das Bessel-Verfahren}{6}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}Berechnung}{6}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1}Berechnung}{7}{subsubsection.4.2.1}
 \contentsline {subsection}{\numberline {4.3}3. Versuchsteil: Das Abbe-Verfahren}{7}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Berechnung}{8}{subsubsection.4.3.1}
-\contentsline {subsection}{\numberline {4.4}4. Versuchsteil: Autokollimationsverfahren und Dispersion}{8}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Bestimmung der theoretischen Brennweiten}{10}{subsection.4.5}
-\contentsline {section}{\numberline {5}Diskussion der Ergebnisse}{10}{section.5}
-\contentsline {subsection}{\numberline {5.1}Erster Versuchsteil}{10}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Zweiter Versuchsteil: Das Bessel Verfahren}{10}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Dritter Versuchsteil: Das Abbe-Verfahren}{11}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Vierter Versuchsteil: Das Autokollimationsverfahren}{12}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Systematische und Statistischen Fehler}{13}{subsection.5.5}
-\contentsline {section}{\numberline {6}Anhang}{13}{section.6}
-\contentsline {section}{\numberline {7}Literatur}{16}{section.7}
+\contentsline {subsubsection}{\numberline {4.3.1}Berechnung}{9}{subsubsection.4.3.1}
+\contentsline {subsection}{\numberline {4.4}4. Versuchsteil: Autokollimationsverfahren und Dispersion}{10}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Bestimmung der theoretischen Brennweiten}{11}{subsection.4.5}
+\contentsline {section}{\numberline {5}Diskussion der Ergebnisse}{11}{section.5}
+\contentsline {subsection}{\numberline {5.1}Erster Versuchsteil}{11}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Zweiter Versuchsteil: Das Bessel Verfahren}{12}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Dritter Versuchsteil: Das Abbe-Verfahren}{12}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Vierter Versuchsteil: Das Autokollimationsverfahren}{13}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Systematische und Statistischen Fehler}{14}{subsection.5.5}
+\contentsline {section}{\numberline {6}Anhang}{14}{section.6}
+\contentsline {section}{\numberline {7}Literatur}{17}{section.7}
